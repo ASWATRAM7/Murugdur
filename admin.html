@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin · Murugdur</title>
+    <meta name="description" content="Admin product manager for Murugdur." />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container">
+        <div class="nav">
+          <a class="brand" href="./index.html" aria-label="Murugdur Home">
+            <div class="logo">
+              <img src="./logo.svg" alt="" aria-hidden="true" />
+            </div>
+            <div>
+              <div class="brand-title">Murugdur</div>
+              <div class="brand-sub">Admin Console</div>
+            </div>
+          </a>
+          <nav class="menu" aria-label="Primary">
+            <a href="./collections.html">Store</a>
+            <a href="./cart.html">Cart <span class="cart-count" data-cart-count>0</span></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="page-title">
+          <h1>Admin · Products</h1>
+          <p>Add or update products. This page has no authentication yet—add protection before deploying publicly.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="split">
+          <div class="panel padded">
+            <div class="kicker">Add / Update</div>
+            <form id="productForm" style="margin-top:12px">
+              <div class="form-grid">
+                <div>
+                  <label for="id">Product ID</label>
+                  <input class="input" id="id" name="id" placeholder="mdr-bag-royale-03" required />
+                </div>
+                <div>
+                  <label for="sku">SKU</label>
+                  <input class="input" id="sku" name="sku" placeholder="MDR-HB-003" required />
+                </div>
+                <div style="grid-column:1/-1">
+                  <label for="name">Name</label>
+                  <input class="input" id="name" name="name" required />
+                </div>
+                <div>
+                  <label for="category">Category Key</label>
+                  <input class="input" id="category" name="category" placeholder="handbags" required />
+                </div>
+                <div>
+                  <label for="badge">Badge</label>
+                  <input class="input" id="badge" name="badge" placeholder="New" />
+                </div>
+                <div>
+                  <label for="price">Price (INR)</label>
+                  <input class="input" id="price" name="price" type="number" min="1" required />
+                </div>
+                <div>
+                  <label for="currency">Currency</label>
+                  <input class="input" id="currency" name="currency" value="INR" required />
+                </div>
+                <div>
+                  <label for="material">Material</label>
+                  <input class="input" id="material" name="material" />
+                </div>
+                <div>
+                  <label for="color">Color</label>
+                  <input class="input" id="color" name="color" />
+                </div>
+                <div style="grid-column:1/-1">
+                  <label for="size">Size</label>
+                  <input class="input" id="size" name="size" />
+                </div>
+                <div style="grid-column:1/-1">
+                  <label for="description">Description</label>
+                  <textarea class="input" id="description" name="description" rows="5" required></textarea>
+                </div>
+              </div>
+
+              <div style="height:12px"></div>
+              <button class="btn primary" type="submit">Save Product</button>
+              <button class="btn" id="resetBtn" type="button">Reset</button>
+
+              <div id="adminMsg" style="margin-top:12px"></div>
+            </form>
+          </div>
+
+          <div class="panel">
+            <div class="toolbar">
+              <div class="left">
+                <span class="badge">Catalog</span>
+              </div>
+              <div class="right">
+                <button class="btn" id="refreshBtn" type="button">Refresh</button>
+              </div>
+            </div>
+
+            <div class="container" style="padding: 0 0 18px">
+              <table class="table" aria-label="Products">
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="productsBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+    <script type="module" src="./app.js"></script>
+    <script>
+      const msg = (html) => {
+        const node = document.getElementById('adminMsg');
+        node.innerHTML = html;
+      };
+
+      const form = document.getElementById('productForm');
+      const productsBody = document.getElementById('productsBody');
+      const refreshBtn = document.getElementById('refreshBtn');
+      const resetBtn = document.getElementById('resetBtn');
+
+      async function loadCatalog(){
+        const res = await fetch('/api/catalog');
+        if(!res.ok) throw new Error('Failed to load catalog');
+        return res.json();
+      }
+
+      function fillForm(p){
+        form.id.value = p.id || '';
+        form.sku.value = p.sku || '';
+        form.name.value = p.name || '';
+        form.category.value = p.category || '';
+        form.badge.value = p.badge || '';
+        form.price.value = p.price || '';
+        form.currency.value = p.currency || 'INR';
+        form.material.value = p.material || '';
+        form.color.value = p.color || '';
+        form.size.value = p.size || '';
+        form.description.value = p.description || '';
+      }
+
+      async function renderTable(){
+        const catalog = await loadCatalog();
+        productsBody.innerHTML = catalog.products.map(p => {
+          return `
+            <tr>
+              <td>
+                <div style="font-family:var(--serif)">${p.name}</div>
+                <div class="small">${p.id} · SKU ${p.sku}</div>
+              </td>
+              <td class="small">${p.category}</td>
+              <td class="price">₹${Number(p.price).toLocaleString('en-IN')}</td>
+              <td>
+                <button class="btn" data-edit="${p.id}">Edit</button>
+                <button class="btn" data-del="${p.id}">Delete</button>
+              </td>
+            </tr>
+          `;
+        }).join('');
+
+        productsBody.querySelectorAll('[data-edit]').forEach(b => {
+          b.addEventListener('click', async () => {
+            const catalog = await loadCatalog();
+            const p = catalog.products.find(x => x.id === b.getAttribute('data-edit'));
+            if(p) fillForm(p);
+            msg('<div class="notice">Editing product. Save to update.</div>');
+          });
+        });
+
+        productsBody.querySelectorAll('[data-del]').forEach(b => {
+          b.addEventListener('click', async () => {
+            const id = b.getAttribute('data-del');
+            const res = await fetch('/api/admin/product/' + encodeURIComponent(id), { method: 'DELETE' });
+            const data = await res.json();
+            if(!res.ok){
+              msg('<div class="notice">' + (data.error || 'Delete failed') + '</div>');
+              return;
+            }
+            msg('<div class="notice">Deleted.</div>');
+            await renderTable();
+          });
+        });
+      }
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const payload = Object.fromEntries(new FormData(form).entries());
+        payload.price = Number(payload.price || 0);
+
+        const res = await fetch('/api/admin/product', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        const data = await res.json();
+        if(!res.ok){
+          msg('<div class="notice">' + (data.error || 'Save failed') + '</div>');
+          return;
+        }
+
+        msg('<div class="notice">Saved.</div>');
+        await renderTable();
+      });
+
+      refreshBtn.addEventListener('click', () => renderTable().catch(e => msg('<div class="notice">' + e.message + '</div>')));
+      resetBtn.addEventListener('click', () => { form.reset(); msg(''); });
+
+      renderTable().catch(e => msg('<div class="notice">' + e.message + '</div>'));
+    </script>
+  </body>
+</html>

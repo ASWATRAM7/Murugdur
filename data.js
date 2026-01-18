@@ -1,0 +1,181 @@
+export const CATEGORIES = [
+  { key: "handbags", name: "Hand Bags" },
+  { key: "belts", name: "Belts" },
+  { key: "perfume", name: "Perfume" },
+  { key: "watches", name: "Watches" },
+  { key: "wallets", name: "Wallets" },
+  { key: "tshirts", name: "T-Shirts" },
+  { key: "trousers", name: "Trousers" },
+  { key: "overcoats", name: "Overcoats" },
+  { key: "oversized", name: "Oversized" },
+  { key: "caps", name: "Caps" },
+  { key: "sweatshirts", name: "Sweat Shirts" }
+];
+
+export const PRODUCTS = [
+  {
+    id: "mdr-bag-royale-01",
+    name: "Royale Monogram Handbag",
+    category: "handbags",
+    price: 189000,
+    currency: "INR",
+    badge: "Signature",
+    sku: "MDR-HB-001",
+    material: "Premium coated canvas with leather trim",
+    color: "Onyx & Gold",
+    size: "34cm",
+    description: "A structured silhouette with refined hardware and a royal finish — built for evening arrivals and everyday prestige."
+  },
+  {
+    id: "mdr-bag-heritage-02",
+    name: "Heritage Trunk Bag",
+    category: "handbags",
+    price: 239000,
+    currency: "INR",
+    badge: "Limited",
+    sku: "MDR-HB-002",
+    material: "Textured leather with micro-grain",
+    color: "Chestnut",
+    size: "28cm",
+    description: "Inspired by classic travel trunks. Precise edges, rich leather, and a lock detail for unmistakable presence."
+  },
+  {
+    id: "mdr-belt-crest-01",
+    name: "Crest Buckle Belt",
+    category: "belts",
+    price: 42000,
+    currency: "INR",
+    badge: "New",
+    sku: "MDR-BLT-001",
+    material: "Full-grain leather",
+    color: "Midnight",
+    size: "Adjustable",
+    description: "A clean strap paired with a sculpted crest buckle — understated luxury with a sharp finish."
+  },
+  {
+    id: "mdr-perfume-oud-01",
+    name: "Murugdur Oud Intense",
+    category: "perfume",
+    price: 16500,
+    currency: "INR",
+    badge: "Bestseller",
+    sku: "MDR-PRF-001",
+    material: "Eau de Parfum",
+    color: "—",
+    size: "100ml",
+    description: "A deep, warm accord of oud and amber with a refined floral lift — bold, clean, and unforgettable."
+  },
+  {
+    id: "mdr-watch-regal-01",
+    name: "Regal Chronograph",
+    category: "watches",
+    price: 149000,
+    currency: "INR",
+    badge: "Signature",
+    sku: "MDR-WCH-001",
+    material: "Stainless steel, sapphire crystal",
+    color: "Black / Gold",
+    size: "42mm",
+    description: "Precision timekeeping with a royal palette — for a statement that never shouts."
+  },
+  {
+    id: "mdr-wallet-slim-01",
+    name: "Royal Slim Wallet",
+    category: "wallets",
+    price: 18500,
+    currency: "INR",
+    badge: "Classic",
+    sku: "MDR-WLT-001",
+    material: "Italian leather",
+    color: "Onyx",
+    size: "8-card",
+    description: "Minimal profile, maximum refinement — crafted for everyday carry with a luxury finish."
+  },
+  {
+    id: "mdr-tee-atelier-01",
+    name: "Atelier T-Shirt",
+    category: "tshirts",
+    price: 8900,
+    currency: "INR",
+    badge: "New",
+    sku: "MDR-TSH-001",
+    material: "Heavyweight cotton",
+    color: "Ivory",
+    size: "S–XXL",
+    description: "A clean luxury basic with elevated fabric weight and perfect drape — designed for sharp silhouettes."
+  },
+  {
+    id: "mdr-trouser-tailored-01",
+    name: "Tailored Trouser",
+    category: "trousers",
+    price: 16900,
+    currency: "INR",
+    badge: "Classic",
+    sku: "MDR-TRS-001",
+    material: "Wool blend",
+    color: "Charcoal",
+    size: "28–38",
+    description: "A precise taper and structured waist — made for formal ease and premium comfort."
+  },
+  {
+    id: "mdr-overcoat-royal-01",
+    name: "Royal Overcoat",
+    category: "overcoats",
+    price: 34900,
+    currency: "INR",
+    badge: "Winter",
+    sku: "MDR-OVC-001",
+    material: "Wool blend",
+    color: "Black",
+    size: "S–XXL",
+    description: "A commanding long-line overcoat with a clean collar and premium finish — for cold-weather elegance."
+  },
+  {
+    id: "mdr-oversized-hood-01",
+    name: "Oversized Hoodie",
+    category: "oversized",
+    price: 12900,
+    currency: "INR",
+    badge: "Street Luxe",
+    sku: "MDR-OVS-001",
+    material: "Brushed fleece",
+    color: "Stone",
+    size: "S–XXL",
+    description: "Luxurious softness, oversized drape — elevated streetwear built to feel royal."
+  },
+  {
+    id: "mdr-cap-crest-01",
+    name: "Crest Cap",
+    category: "caps",
+    price: 4900,
+    currency: "INR",
+    badge: "New",
+    sku: "MDR-CAP-001",
+    material: "Cotton twill",
+    color: "Midnight",
+    size: "Adjustable",
+    description: "A structured cap with crest detailing — minimal, bold, and unmistakably premium."
+  },
+  {
+    id: "mdr-sweatshirt-crest-01",
+    name: "Crest Sweat Shirt",
+    category: "sweatshirts",
+    price: 10900,
+    currency: "INR",
+    badge: "Essential",
+    sku: "MDR-SWS-001",
+    material: "French terry",
+    color: "Black",
+    size: "S–XXL",
+    description: "A luxury essential with superior hand-feel — clean fit, sharp cuffs, and royal confidence."
+  }
+];
+
+export const FEATURED_IDS = [
+  "mdr-bag-royale-01",
+  "mdr-watch-regal-01",
+  "mdr-perfume-oud-01",
+  "mdr-overcoat-royal-01",
+  "mdr-wallet-slim-01",
+  "mdr-belt-crest-01"
+];

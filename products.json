@@ -1,0 +1,352 @@
+{
+  "categories": [
+    {
+      "key": "handbags",
+      "name": "Hand Bags"
+    },
+    {
+      "key": "belts",
+      "name": "Belts"
+    },
+    {
+      "key": "perfume",
+      "name": "Perfume"
+    },
+    {
+      "key": "watches",
+      "name": "Watches"
+    },
+    {
+      "key": "wallets",
+      "name": "Wallets"
+    },
+    {
+      "key": "tshirts",
+      "name": "T-Shirts"
+    },
+    {
+      "key": "trousers",
+      "name": "Trousers"
+    },
+    {
+      "key": "overcoats",
+      "name": "Overcoats"
+    },
+    {
+      "key": "oversized",
+      "name": "Oversized"
+    },
+    {
+      "key": "caps",
+      "name": "Caps"
+    },
+    {
+      "key": "sweatshirts",
+      "name": "Sweat Shirts"
+    }
+  ],
+  "featuredIds": [
+    "mdr-bag-royale-01",
+    "mdr-watch-regal-01",
+    "mdr-perfume-oud-01",
+    "mdr-overcoat-royal-01",
+    "mdr-wallet-slim-01",
+    "mdr-belt-crest-01"
+  ],
+  "products": [
+    {
+      "id": "mdr-bag-royale-01",
+      "name": "Royale Monogram Handbag",
+      "category": "handbags",
+      "price": 189000,
+      "currency": "INR",
+      "badge": "Signature",
+      "sku": "MDR-HB-001",
+      "material": "Premium coated canvas with leather trim",
+      "color": "Onyx & Gold",
+      "size": "34cm",
+      "description": "A structured silhouette with refined hardware and a royal finish — built for evening arrivals and everyday prestige.",
+      "image": "./assets/hero-handbag.png"
+    },
+    {
+      "id": "mdr-bag-heritage-02",
+      "name": "Heritage Trunk Bag",
+      "category": "handbags",
+      "price": 239000,
+      "currency": "INR",
+      "badge": "Limited",
+      "sku": "MDR-HB-002",
+      "material": "Textured leather with micro-grain",
+      "color": "Chestnut",
+      "size": "28cm",
+      "description": "Inspired by classic travel trunks. Precise edges, rich leather, and a lock detail for unmistakable presence.",
+      "image": "./assets/handbag-black.png"
+    },
+    {
+      "id": "mdr-bag-glamour-03",
+      "name": "Glamour Croco Handbag",
+      "category": "handbags",
+      "price": 215000,
+      "currency": "INR",
+      "badge": "New",
+      "sku": "MDR-HB-003",
+      "material": "Crocodile embossed leather",
+      "color": "Emerald",
+      "size": "30cm",
+      "description": "A bold statement of luxury with rich texture and a vibrant emerald hue.",
+      "image": "./assets/bag-luxury-2.png"
+    },
+    {
+      "id": "mdr-belt-crest-01",
+      "name": "Crest Buckle Belt",
+      "category": "belts",
+      "price": 42000,
+      "currency": "INR",
+      "badge": "New",
+      "sku": "MDR-BLT-001",
+      "material": "Full-grain leather",
+      "color": "Midnight",
+      "size": "Adjustable",
+      "description": "A clean strap paired with a sculpted crest buckle — understated luxury with a sharp finish.",
+      "image": "./assets/belt-luxury.png"
+    },
+    {
+      "id": "mdr-belt-gold-02",
+      "name": "Golden Signature Belt",
+      "category": "belts",
+      "price": 48000,
+      "currency": "INR",
+      "badge": "Classic",
+      "sku": "MDR-BLT-002",
+      "material": "Suede leather",
+      "color": "Tan",
+      "size": "Adjustable",
+      "description": "Gold hardware meets soft tan suede for a sophisticated, versatile accessory.",
+      "image": "./assets/shoes-luxury.png"
+    },
+    {
+      "id": "mdr-perfume-oud-01",
+      "name": "Murugdur Oud Intense",
+      "category": "perfume",
+      "price": 16500,
+      "currency": "INR",
+      "badge": "Bestseller",
+      "sku": "MDR-PRF-001",
+      "material": "Eau de Parfum",
+      "color": "—",
+      "size": "100ml",
+      "description": "A deep, warm accord of oud and amber with a refined floral lift — bold, clean, and unforgettable.",
+      "image": "./assets/perfume-luxury.png"
+    },
+    {
+      "id": "mdr-perfume-noir-02",
+      "name": "Noir Night Parfum",
+      "category": "perfume",
+      "price": 18500,
+      "currency": "INR",
+      "badge": "Exclusive",
+      "sku": "MDR-PRF-002",
+      "material": "Extrait de Parfum",
+      "color": "—",
+      "size": "50ml",
+      "description": "An intense, mysterious fragrance designed for the evening hours.",
+      "image": "./assets/pdt-extra-01.png"
+    },
+    {
+      "id": "mdr-watch-regal-01",
+      "name": "Regal Chronograph",
+      "category": "watches",
+      "price": 149000,
+      "currency": "INR",
+      "badge": "Signature",
+      "sku": "MDR-WCH-001",
+      "material": "Stainless steel, sapphire crystal",
+      "color": "Black / Gold",
+      "size": "42mm",
+      "description": "Precision timekeeping with a royal palette — for a statement that never shouts.",
+      "image": "./assets/watch-luxury.png"
+    },
+    {
+      "id": "mdr-watch-classic-02",
+      "name": "Heritage Silver Watch",
+      "category": "watches",
+      "price": 125000,
+      "currency": "INR",
+      "badge": "Vintage",
+      "sku": "MDR-WCH-002",
+      "material": "Italian steel",
+      "color": "Silver",
+      "size": "38mm",
+      "description": "A classic design that honors the heritage of fine watchmaking.",
+      "image": "./assets/pdt-extra-02.png"
+    },
+    {
+      "id": "mdr-wallet-slim-01",
+      "name": "Royal Slim Wallet",
+      "category": "wallets",
+      "price": 18500,
+      "currency": "INR",
+      "badge": "Classic",
+      "sku": "MDR-WLT-001",
+      "material": "Italian leather",
+      "color": "Onyx",
+      "size": "8-card",
+      "description": "Minimal profile, maximum refinement — crafted for everyday carry with a luxury finish.",
+      "image": "./assets/wallet-luxury.png"
+    },
+    {
+      "id": "mdr-wallet-fold-02",
+      "name": "Executive Bifold",
+      "category": "wallets",
+      "price": 22000,
+      "currency": "INR",
+      "badge": "Essential",
+      "sku": "MDR-WLT-002",
+      "material": "Calfskin leather",
+      "color": "Navy",
+      "size": "Large",
+      "description": "Spacious and elegant, perfect for the modern executive.",
+      "image": "./assets/pdt-extra-03.png"
+    },
+    {
+      "id": "mdr-tee-atelier-01",
+      "name": "Atelier T-Shirt",
+      "category": "tshirts",
+      "price": 8900,
+      "currency": "INR",
+      "badge": "New",
+      "sku": "MDR-TSH-001",
+      "material": "Heavyweight cotton",
+      "color": "Ivory",
+      "size": "S–XXL",
+      "description": "A clean luxury basic with elevated fabric weight and perfect drape — designed for sharp silhouettes.",
+      "image": "./assets/tshirt-luxury.png"
+    },
+    {
+      "id": "mdr-tee-crest-02",
+      "name": "Gold Crest Tee",
+      "category": "tshirts",
+      "price": 9500,
+      "currency": "INR",
+      "badge": "Signature",
+      "sku": "MDR-TSH-002",
+      "material": "Organic cotton",
+      "color": "Black",
+      "size": "S–XXL",
+      "description": "Featuring the iconic Murugdur gold crest.",
+      "image": "./assets/pdt-extra-04.png"
+    },
+    {
+      "id": "mdr-trouser-tailored-01",
+      "name": "Tailored Trouser",
+      "category": "trousers",
+      "price": 16900,
+      "currency": "INR",
+      "badge": "Classic",
+      "sku": "MDR-TRS-001",
+      "material": "Wool blend",
+      "color": "Charcoal",
+      "size": "28–38",
+      "description": "A precise taper and structured waist — made for formal ease and premium comfort.",
+      "image": "./assets/blazer-luxury.png"
+    },
+    {
+      "id": "mdr-trouser-slim-02",
+      "name": "Slim Fit Chino",
+      "category": "trousers",
+      "price": 14500,
+      "currency": "INR",
+      "badge": "Casual",
+      "sku": "MDR-TRS-002",
+      "material": "Stretch cotton",
+      "color": "Khaki",
+      "size": "28–38",
+      "description": "Perfect for a smart-casual luxury look.",
+      "image": "./assets/pdt-extra-05.png"
+    },
+    {
+      "id": "mdr-overcoat-royal-01",
+      "name": "Royal Overcoat",
+      "category": "overcoats",
+      "price": 34900,
+      "currency": "INR",
+      "badge": "Winter",
+      "sku": "MDR-OVC-001",
+      "material": "Wool blend",
+      "color": "Black",
+      "size": "S–XXL",
+      "description": "A commanding long-line overcoat with a clean collar and premium finish — for cold-weather elegance.",
+      "image": "./assets/coat-luxury.png"
+    },
+    {
+      "id": "mdr-overcoat-camel-02",
+      "name": "Classic Camel Coat",
+      "category": "overcoats",
+      "price": 38500,
+      "currency": "INR",
+      "badge": "Heritage",
+      "sku": "MDR-OVC-002",
+      "material": "Cashmere blend",
+      "color": "Camel",
+      "size": "S–XXL",
+      "description": "The peak of winter luxury, as seen on our main editorial.",
+      "image": "./assets/model-coat.webp"
+    },
+    {
+      "id": "mdr-oversized-hood-01",
+      "name": "Oversized Hoodie",
+      "category": "oversized",
+      "price": 12900,
+      "currency": "INR",
+      "badge": "Street Luxe",
+      "sku": "MDR-OVS-001",
+      "material": "Brushed fleece",
+      "color": "Stone",
+      "size": "S–XXL",
+      "description": "Luxurious softness, oversized drape — elevated streetwear built to feel royal.",
+      "image": "./assets/pdt-extra-06.png"
+    },
+    {
+      "id": "mdr-oversized-tee-02",
+      "name": "Royal Box Tee",
+      "category": "oversized",
+      "price": 9800,
+      "currency": "INR",
+      "badge": "Modern",
+      "sku": "MDR-OVS-002",
+      "material": "Heavyweight cotton",
+      "color": "Onyx",
+      "size": "S–XXL",
+      "description": "A modern, relaxed silhouette with a boxy fit.",
+      "image": "./assets/pdt-extra-07.png"
+    },
+    {
+      "id": "mdr-cap-crest-01",
+      "name": "Crest Cap",
+      "category": "caps",
+      "price": 4900,
+      "currency": "INR",
+      "badge": "New",
+      "sku": "MDR-CAP-001",
+      "material": "Cotton twill",
+      "color": "Midnight",
+      "size": "Adjustable",
+      "description": "A structured cap with crest detailing — minimal, bold, and unmistakably premium.",
+      "image": "./assets/pdt-extra-08.png"
+    },
+    {
+      "id": "mdr-sweatshirt-crest-01",
+      "name": "Crest Sweat Shirt",
+      "category": "sweatshirts",
+      "price": 10900,
+      "currency": "INR",
+      "badge": "Essential",
+      "sku": "MDR-SWS-001",
+      "material": "French terry",
+      "color": "Black",
+      "size": "S–XXL",
+      "description": "A luxury essential with superior hand-feel — clean fit, sharp cuffs, and royal confidence.",
+      "image": "./assets/blazer-luxury.png"
+    }
+  ]
+}
