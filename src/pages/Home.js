@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import productsData from '../data/products.json';
 import './Home.css';
 
 function Home() {
     const [featuredProducts, setFeaturedProducts] = useState([]);
+    const videoRef = useRef(null);
 
     useEffect(() => {
         // Load featured products
@@ -13,6 +14,13 @@ function Home() {
             .filter(Boolean)
             .slice(0, 4);
         setFeaturedProducts(featured);
+
+        // Ensure video plays
+        if (videoRef.current) {
+            videoRef.current.play().catch(error => {
+                console.log('Video autoplay failed:', error);
+            });
+        }
     }, []);
 
     const formatPrice = (price, currency) => {
@@ -25,9 +33,22 @@ function Home() {
 
     return (
         <main className="home">
-            {/* Full-Screen Hero */}
+            {/* Full-Screen Hero with Video */}
             <section className="hero-fullscreen">
-                <img className="hero-fullscreen-bg" src="/assets/model-coat.webp" alt="" />
+                <video
+                    ref={videoRef}
+                    className="hero-video"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    preload="auto"
+                    poster="/assets/hero-model-walking.png"
+                >
+                    <source src="/assets/hero-video.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+                <div className="hero-fullscreen-overlay"></div>
                 <div className="hero-fullscreen-content">
                     <div className="hero-fullscreen-text">
                         <div className="kicker-light">Winter 2026 Collection</div>
@@ -38,7 +59,6 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="hero-fullscreen-overlay"></div>
             </section>
 
             {/* Signature Collections */}
@@ -47,13 +67,13 @@ function Home() {
                     <div className="section-header-center">
                         <div className="kicker">Signature Collections</div>
                         <h2 className="section-title-large">Timeless Elegance</h2>
-                        <p className="section-subtitle">Timeless pieces that define Murugdur's legacy</p>
+                        <p className="section-subtitle">Timeless pieces that define Murgdur's legacy</p>
                     </div>
 
                     <div className="dual-grid">
                         <Link className="editorial-card large" to="/collections?category=handbags">
                             <div className="editorial-card-media">
-                                <img className="image-cover" src="/assets/hero-handbag.png" alt="Murugdur Handbags" />
+                                <img className="image-cover" src="/assets/hero-handbag.png" alt="Murgdur Handbags" />
                             </div>
                             <div className="editorial-card-content">
                                 <div className="badge-luxury">Signature</div>
@@ -65,7 +85,7 @@ function Home() {
 
                         <Link className="editorial-card large" to="/collections?category=wallets">
                             <div className="editorial-card-media">
-                                <img className="image-cover" src="/assets/wallet-luxury.png" alt="Murugdur Wallets" />
+                                <img className="image-cover" src="/assets/wallet-luxury.png" alt="Murgdur Wallets" />
                             </div>
                             <div className="editorial-card-content">
                                 <div className="badge-luxury">Leather Goods</div>
@@ -84,7 +104,7 @@ function Home() {
                 <div className="editorial-banner-content">
                     <div className="editorial-banner-text">
                         <div className="kicker-light">Fragrance</div>
-                        <h2 className="editorial-banner-title">Murugdur Oud Intense</h2>
+                        <h2 className="editorial-banner-title">Murgdur Oud Intense</h2>
                         <p className="editorial-banner-subtitle">A deep, warm accord of oud and amber—bold, clean, unforgettable</p>
                         <Link className="btn-large light" to="/collections?category=perfume">Explore Fragrance</Link>
                     </div>
@@ -92,28 +112,103 @@ function Home() {
                 <div className="editorial-banner-overlay"></div>
             </section>
 
-            {/* Featured Products */}
-            <section className="section-spacious bg-tinted">
-                <div className="container">
-                    <div className="section-header-center">
-                        <div className="kicker">Featured Selection</div>
-                        <h2 className="section-title-large">Curated for You</h2>
+            {/* Featured Products - Split Screen Showcases */}
+            <section className="product-showcase">
+                <div className="showcase-item">
+                    <div className="showcase-content">
+                        <div className="showcase-text">
+                            <div className="kicker">Signature Collection</div>
+                            <h2 className="showcase-title">Royale Monogram Handbag</h2>
+                            <p className="showcase-description">
+                                A structured silhouette with refined hardware and a royal finish — built for evening arrivals and everyday prestige. Crafted from premium coated canvas with leather trim, this handbag embodies timeless elegance.
+                            </p>
+                            <ul className="showcase-features">
+                                <li>Premium coated canvas with leather trim</li>
+                                <li>Onyx & Gold color palette</li>
+                                <li>34cm structured design</li>
+                                <li>Refined hardware details</li>
+                            </ul>
+                            <div className="showcase-price">₹1,89,000</div>
+                            <Link className="btn-large primary" to="/product/mdr-bag-royale-01">View Details</Link>
+                        </div>
                     </div>
+                    <div className="showcase-image">
+                        <img src="/assets/hero-handbag.png" alt="Royale Monogram Handbag" />
+                    </div>
+                </div>
+            </section>
 
-                    <div className="products-grid-luxury">
-                        {featuredProducts.map(product => (
-                            <Link key={product.id} className="product-card-luxury" to={`/product/${product.id}`}>
-                                <div className="product-card-media">
-                                    <img className="image-cover" src={product.image} alt={product.name} />
-                                    {product.badge && <div className="product-badge-luxury">{product.badge}</div>}
-                                </div>
-                                <div className="product-card-info">
-                                    <div className="product-category-small">{product.category}</div>
-                                    <h3 className="product-name">{product.name}</h3>
-                                    <div className="product-price">{formatPrice(product.price, product.currency)}</div>
-                                </div>
-                            </Link>
-                        ))}
+            <section className="product-showcase reverse">
+                <div className="showcase-item">
+                    <div className="showcase-image">
+                        <img src="/assets/watch-luxury.png" alt="Regal Chronograph" />
+                    </div>
+                    <div className="showcase-content">
+                        <div className="showcase-text">
+                            <div className="kicker">Timepiece Excellence</div>
+                            <h2 className="showcase-title">Regal Chronograph</h2>
+                            <p className="showcase-description">
+                                Precision timekeeping with a royal palette — for a statement that never shouts. Featuring stainless steel construction and sapphire crystal, this chronograph represents the pinnacle of luxury watchmaking.
+                            </p>
+                            <ul className="showcase-features">
+                                <li>Stainless steel with sapphire crystal</li>
+                                <li>Black & Gold finish</li>
+                                <li>42mm case diameter</li>
+                                <li>Swiss-inspired precision movement</li>
+                            </ul>
+                            <div className="showcase-price">₹1,49,000</div>
+                            <Link className="btn-large primary" to="/product/mdr-watch-regal-01">View Details</Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="product-showcase">
+                <div className="showcase-item">
+                    <div className="showcase-content">
+                        <div className="showcase-text">
+                            <div className="kicker">Fragrance</div>
+                            <h2 className="showcase-title">Murgdur Oud Intense</h2>
+                            <p className="showcase-description">
+                                A deep, warm accord of oud and amber with a refined floral lift — bold, clean, and unforgettable. This signature fragrance captures the essence of luxury in every note, designed for those who appreciate the finer things.
+                            </p>
+                            <ul className="showcase-features">
+                                <li>Eau de Parfum concentration</li>
+                                <li>100ml premium bottle</li>
+                                <li>Oud and amber base notes</li>
+                                <li>Long-lasting signature scent</li>
+                            </ul>
+                            <div className="showcase-price">₹16,500</div>
+                            <Link className="btn-large primary" to="/product/mdr-perfume-oud-01">View Details</Link>
+                        </div>
+                    </div>
+                    <div className="showcase-image">
+                        <img src="/assets/perfume-luxury.png" alt="Murgdur Oud Intense" />
+                    </div>
+                </div>
+            </section>
+
+            <section className="product-showcase reverse">
+                <div className="showcase-item">
+                    <div className="showcase-image">
+                        <img src="/assets/coat-luxury.png" alt="Royal Overcoat" />
+                    </div>
+                    <div className="showcase-content">
+                        <div className="showcase-text">
+                            <div className="kicker">Winter Collection</div>
+                            <h2 className="showcase-title">Royal Overcoat</h2>
+                            <p className="showcase-description">
+                                A commanding long-line overcoat with a clean collar and premium finish — for cold-weather elegance. Crafted from the finest wool blend, this overcoat provides both warmth and sophistication.
+                            </p>
+                            <ul className="showcase-features">
+                                <li>Premium wool blend fabric</li>
+                                <li>Classic black finish</li>
+                                <li>Available in S–XXL</li>
+                                <li>Long-line silhouette</li>
+                            </ul>
+                            <div className="showcase-price">₹34,900</div>
+                            <Link className="btn-large primary" to="/product/mdr-overcoat-royal-01">View Details</Link>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -172,7 +267,7 @@ function Home() {
                         <h2 className="split-editorial-title">Tailoring & Outerwear</h2>
                         <p className="split-editorial-text">
                             Clean construction, disciplined proportions, and a quiet signature—designed to feel finished from every
-                            angle. From tailored trousers to royal overcoats, each piece embodies the Murugdur philosophy of restrained
+                            angle. From tailored trousers to royal overcoats, each piece embodies the Murgdur philosophy of restrained
                             luxury.
                         </p>
                         <ul className="split-editorial-features">
@@ -250,7 +345,7 @@ function Home() {
                         <div className="kicker">Our Story</div>
                         <h2 className="heritage-title">A Legacy of Excellence</h2>
                         <p className="heritage-text">
-                            Founded in 2019 by the late Sri Sundershan Duraisamy, Murugdur represents more than a fashion house—it is
+                            Founded in 2019 by the late Sri Sundershan Duraisamy, Murgdur represents more than a fashion house—it is
                             a testament to timeless craftsmanship and unwavering dedication to quality. Every piece we create honors his
                             vision of elegance that transcends trends.
                         </p>
@@ -264,7 +359,7 @@ function Home() {
                 <div className="container">
                     <div className="section-header-center">
                         <div className="kicker">Maison Services</div>
-                        <h2 className="section-title-large">The Murugdur Experience</h2>
+                        <h2 className="section-title-large">The Murgdur Experience</h2>
                     </div>
 
                     <div className="services-grid">

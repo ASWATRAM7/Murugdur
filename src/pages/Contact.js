@@ -18,7 +18,7 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert('Thank you for contacting Murugdur. We will respond to your inquiry shortly.');
+        alert('Thank you for contacting Murgdur. We will respond to your inquiry shortly.');
         setFormData({ name: '', email: '', subject: '', message: '' });
     };
 
@@ -101,7 +101,7 @@ function Contact() {
                                 <div className="info-item">
                                     <h4>Email</h4>
                                     <p>
-                                        <a href="mailto:concierge@murugdur.com">concierge@murugdur.com</a>
+                                        <a href="mailto:concierge@murgdur.com">concierge@murgdur.com</a>
                                     </p>
                                 </div>
 
@@ -115,7 +115,7 @@ function Contact() {
                                 <div className="info-item">
                                     <h4>Address</h4>
                                     <p>
-                                        Murugdur Atelier<br />
+                                        Murgdur Atelier<br />
                                         123 Luxury Lane<br />
                                         Mumbai, Maharashtra 400001<br />
                                         India
@@ -136,7 +136,7 @@ function Contact() {
                             <h4 className="info-title">Concierge Services</h4>
                             <p style={{ fontSize: '13px', lineHeight: '1.7', color: 'var(--lv-gray)' }}>
                                 Our dedicated concierge team is available to assist with product inquiries, custom orders, care
-                                instructions, and any other questions you may have about Murugdur.
+                                instructions, and any other questions you may have about Murgdur.
                             </p>
                         </div>
                     </div>

@@ -11,8 +11,12 @@ function Footer() {
                 <div className="footer-grid">
                     <div className="footer-brand">
                         <div className="footer-logo">
-                            <img src="/logo.svg" alt="Murugdur" style={{ width: '40px', height: '40px' }} />
-                            <div className="footer-logo-text">MURUGDUR</div>
+                            <img
+                                src="/logo-final.jpg"
+                                alt="Murgdur"
+                                style={{ width: '40px', height: '40px', objectFit: 'cover', objectPosition: 'center 35%' }}
+                            />
+                            <div className="footer-logo-text">MURGDUR</div>
                         </div>
                         <p className="footer-tagline">
                             Luxury fashion house founded in 2019. Crafted with a royal design language and unwavering commitment to excellence.
@@ -46,7 +50,7 @@ function Footer() {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>© {currentYear} Murugdur. All rights reserved.</p>
+                    <p>© {currentYear} Murgdur. All rights reserved.</p>
                     <div className="footer-social">
                         <span>Follow us:</span>
                         <a href="#" aria-label="Instagram">Instagram</a>

@@ -100,7 +100,7 @@ function Product() {
 
                     <div className="product-details-section">
                         <div className="panel padded">
-                            <div className="product-kicker">Murugdur Atelier</div>
+                            <div className="product-kicker">Murgdur Atelier</div>
                             <h1 className="product-title">{product.name}</h1>
                             <div className="product-price-large">{formatPrice(product.price, product.currency)}</div>
                             <p className="product-description">{product.description}</p>

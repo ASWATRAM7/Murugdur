@@ -1,21 +1,31 @@
 /* ===========================
-   MURUGDUR - LV COLOR SCHEME WITH ORIGINAL LAYOUT
+   MURGDUR - BLACK, WHITE & GRADIENT THEME
    =========================== */
 
 :root {
-    /* Louis Vuitton Color Palette */
-    --lv-brown: #6b4423;
-    --lv-tan: #c19a6b;
-    --lv-gold: #d4af37;
-    --lv-cream: #f5f1e8;
-    --lv-white: #ffffff;
-    --lv-black: #1a1a1a;
-    --lv-gray: #757575;
-    --lv-light-gray: #f8f8f8;
+    /* Modern Black & White Palette */
+    --primary-black: #000000;
+    --soft-black: #1a1a1a;
+    --dark-gray: #2b2b2b;
+    --medium-gray: #666666;
+    --light-gray: #e5e5e5;
+    --off-white: #f8f8f8;
+    --pure-white: #ffffff;
 
-    /* Typography */
+    /* Premium Gradient Colors */
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    --gradient-dark: linear-gradient(135deg, #434343 0%, #000000 100%);
+
+    /* Solid Accent Colors */
+    --accent-purple: #667eea;
+    --accent-pink: #f5576c;
+    --accent-blue: #4facfe;
+
+    /* Typography - Modern Sans-Serif */
+    --font-primary: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     --font-serif: 'Playfair Display', 'Georgia', serif;
-    --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
     /* Spacing */
     --spacing-xs: 8px;
@@ -41,15 +51,17 @@ html {
     height: 100%;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
     height: 100%;
-    font-family: var(--font-sans);
+    font-family: var(--font-primary);
     font-size: 14px;
     line-height: 1.6;
-    color: var(--lv-black);
-    background: var(--lv-white);
+    color: var(--soft-black);
+    background: var(--pure-white);
+    font-weight: 400;
 }
 
 .App {
@@ -84,8 +96,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-serif);
-    font-weight: 400;
+    font-family: var(--font-primary);
+    font-weight: 300;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }

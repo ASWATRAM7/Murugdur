@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="luxuryGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#AA8A2E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <style>
+    .monogram { font-family: 'Playfair Display', 'Didot', serif; font-weight: 700; font-size: 100px; fill: url(#luxuryGold); }
+  </style>
+  <rect width="200" height="200" fill="transparent" />
+  <text x="100" y="140" text-anchor="middle" class="monogram">MD</text>
+</svg>

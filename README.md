@@ -1,6 +1,6 @@
-# Murugdur - Luxury Fashion House
+# Murgdur - Luxury Fashion House
 
-A premium e-commerce React application for Murugdur luxury fashion brand, inspired by Louis Vuitton's design aesthetic.
+A premium e-commerce React application for Murgdur luxury fashion brand, inspired by Louis Vuitton's design aesthetic.
 
 ## 🎨 Design Features
 
@@ -42,7 +42,7 @@ npm run build
 ## 📁 Project Structure
 
 ```
-murugdur/
+murgdur/
 ├── public/
 │   ├── assets/           # Product images
 │   ├── logo.svg
@@ -157,7 +157,7 @@ npm install @stripe/stripe-js @stripe/react-stripe-js
 
 ## 🎯 Brand Story
 
-Founded in 2019 by the late Sri Sundershan Duraisamy, Murugdur represents the pinnacle of luxury craftsmanship. Every piece honors his vision of timeless elegance and uncompromising quality.
+Founded in 2019 by the late Sri Sundershan Duraisamy, Murgdur represents the pinnacle of luxury craftsmanship. Every piece honors his vision of timeless elegance and uncompromising quality.
 
 ## 📱 Responsive Breakpoints
 
@@ -176,7 +176,7 @@ Founded in 2019 by the late Sri Sundershan Duraisamy, Murugdur represents the pi
 
 ## 📄 License
 
-© 2026 Murugdur. All rights reserved.
+© 2026 Murgdur. All rights reserved.
 
 ## 🙏 Acknowledgments
 
@@ -184,4 +184,4 @@ Design inspired by Louis Vuitton's premium aesthetic and user experience.
 
 ---
 
-**Murugdur** - Luxury Fashion House · Est. 2019
+**Murgdur** - Luxury Fashion House · Est. 2019

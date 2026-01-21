@@ -8,6 +8,8 @@ import Product from './pages/Product';
 import Cart from './pages/Cart';
 import Heritage from './pages/Heritage';
 import Contact from './pages/Contact';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 import './App.css';
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/heritage" element={<Heritage />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/signup" element={<Signup />} />
                 </Routes>
                 <Footer />
             </div>
