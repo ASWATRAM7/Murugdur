@@ -133,7 +133,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="showcase-image">
-                        <img src="/assets/hero-handbag.png" alt="Royale Monogram Handbag" />
+                        <img src="/assets/mens-bag1.png" alt="Royale Monogram Handbag" />
                     </div>
                 </div>
             </section>
@@ -141,7 +141,7 @@ function Home() {
             <section className="product-showcase reverse">
                 <div className="showcase-item">
                     <div className="showcase-image">
-                        <img src="/assets/watch-luxury.png" alt="Regal Chronograph" />
+                        <img src="/assets/watch1.png" alt="Regal Chronograph" />
                     </div>
                     <div className="showcase-content">
                         <div className="showcase-text">
@@ -183,7 +183,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="showcase-image">
-                        <img src="/assets/perfume-luxury.png" alt="Murgdur Oud Intense" />
+                        <img src="/assets/womens-perfume1.png" alt="Murgdur Oud Intense" />
                     </div>
                 </div>
             </section>
@@ -191,7 +191,7 @@ function Home() {
             <section className="product-showcase reverse">
                 <div className="showcase-item">
                     <div className="showcase-image">
-                        <img src="/assets/coat-luxury.png" alt="Royal Overcoat" />
+                        <img src="/assets/coat1.png" alt="Royal Overcoat" />
                     </div>
                     <div className="showcase-content">
                         <div className="showcase-text">

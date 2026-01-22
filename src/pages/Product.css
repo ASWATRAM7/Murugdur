@@ -120,12 +120,113 @@
     margin-bottom: var(--spacing-lg);
 }
 
-.product-actions {
+/* Image Thumbnails Gallery */
+.product-thumbnails {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+    padding: 16px;
+    background: var(--lv-cream, #f8f6f3);
+    border-radius: 4px;
+}
+
+.thumbnail {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #fff;
+}
+
+.thumbnail:hover {
+    border-color: #6B4423;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(107, 68, 35, 0.15);
+}
+
+.thumbnail.active {
+    border-color: #6B4423;
+    box-shadow: 0 4px 16px rgba(107, 68, 35, 0.2);
+}
+
+.thumbnail img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Size Selector */
+.size-selector {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.size-selector label {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: var(--lv-gray);
+    font-weight: 500;
+}
+
+.size-options {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.size-option {
+    min-width: 52px;
+    height: 52px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    background: #fff;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: var(--font-primary);
+}
+
+.size-option:hover {
+    border-color: #6B4423;
+    background: rgba(107, 68, 35, 0.05);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(107, 68, 35, 0.1);
+}
+
+.size-option.active {
+    border-color: #6B4423;
+    background: #6B4423;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(107, 68, 35, 0.25);
+    transform: translateY(-2px);
+}
+
+.product-actions {
+    display: flex;
+    align-items: flex-start;
     gap: var(--spacing-md);
     flex-wrap: wrap;
     margin-bottom: var(--spacing-lg);
+}
+
+.product-actions>* {
+    flex-shrink: 0;
 }
 
 .quantity-selector label {

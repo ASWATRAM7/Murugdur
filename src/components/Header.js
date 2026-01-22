@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
     const [cartCount, setCartCount] = useState(0);
     const [menuOpen, setMenuOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+    const location = useLocation();
+
+    // Check if we're on the home page
+    const isHomePage = location.pathname === '/';
 
     useEffect(() => {
         const updateCartCount = () => {
@@ -17,6 +22,18 @@ function Header() {
         return () => window.removeEventListener('cartUpdated', updateCartCount);
     }, []);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 50;
+            if (isScrolled !== scrolled) {
+                setScrolled(isScrolled);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [scrolled]);
+
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
@@ -25,9 +42,12 @@ function Header() {
         setMenuOpen(false);
     };
 
+    // Apply classes based on page and scroll state
+    const headerClasses = `topbar ${scrolled ? 'scrolled' : ''} ${!isHomePage ? 'scrolled' : ''}`;
+
     return (
         <>
-            <header className="topbar">
+            <header className={headerClasses}>
                 <div className="nav">
                     {/* Left Section */}
                     <div className="nav-left">
@@ -42,7 +62,7 @@ function Header() {
 
                     {/* Right Section */}
                     <div className="nav-right">
-                        <Link to="/contact" className="icon-link">Call Us</Link>
+                        <Link to="/contact" className="icon-link">Contact Us</Link>
                         <Link to="/login" className="icon-link">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />

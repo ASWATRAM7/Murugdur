@@ -1,13 +1,24 @@
-/* Header - Gradient Theme */
+/* Header - Louis Vuitton Style (Transparent to White) */
 .topbar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.95) 0%, rgba(26, 26, 26, 0.95) 100%);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border-bottom: none;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: none;
+}
+
+/* Scrolled state - solid white background */
+.topbar.scrolled {
+    background: #ffffff;
+    backdrop-filter: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
 }
 
 .nav {
@@ -29,37 +40,87 @@
 .search-button {
     background: none;
     border: none;
-    color: var(--pure-white);
+    color: #ffffff;
     font-family: var(--font-primary);
     font-size: 13px;
     font-weight: 400;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
     cursor: pointer;
-    padding: 8px 0;
-    transition: all var(--transition-fast);
+    padding: 8px 16px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    border-radius: 4px;
+}
+
+/* Scrolled state - dark text */
+.topbar.scrolled .menu-button,
+.topbar.scrolled .search-button {
+    color: #1a1a1a;
+}
+
+.menu-button::before,
+.search-button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.topbar.scrolled .menu-button::before,
+.topbar.scrolled .search-button::before {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.menu-button:hover::before,
+.search-button:hover::before {
+    opacity: 1;
 }
 
 .menu-button:hover,
 .search-button:hover {
-    color: var(--accent-purple);
+    color: #fff;
+    transform: translateY(-1px);
 }
 
+/* Brand Logo */
 .brand {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     align-items: center;
-    gap: 0;
+    gap: 12px;
     font-family: var(--font-primary);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.brand:hover {
+    transform: translateX(-50%) scale(1.03);
 }
 
 .brand-title {
-    font-size: 22px;
-    font-weight: 500;
-    letter-spacing: 0.15em;
-    color: var(--pure-white);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: #ffffff;
     text-transform: uppercase;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Scrolled state - dark brand text */
+.topbar.scrolled .brand-title {
+    color: #1a1a1a;
+    text-shadow: none;
+}
+
+.brand:hover .brand-title {
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6),
+        0 0 50px rgba(255, 255, 255, 0.2);
+    letter-spacing: 0.22em;
 }
 
 .brand-sub {
@@ -74,19 +135,53 @@
 }
 
 .icon-link {
-    color: var(--pure-white);
+    color: #ffffff;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 0.05em;
     cursor: pointer;
-    transition: all var(--transition-fast);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     gap: 6px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    position: relative;
+}
+
+/* Scrolled state - dark icon links */
+.topbar.scrolled .icon-link {
+    color: #1a1a1a;
+}
+
+.icon-link::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.topbar.scrolled .icon-link::before {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.icon-link:hover::before {
+    opacity: 1;
 }
 
 .icon-link:hover {
-    color: var(--accent-purple);
+    transform: translateY(-1px);
+}
+
+.icon-link svg {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link:hover svg {
+    transform: scale(1.1);
 }
 
 .cart-icon {
@@ -95,19 +190,34 @@
 
 .cart-count {
     position: absolute;
-    top: -8px;
-    right: -8px;
+    top: -6px;
+    right: -6px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 16px;
-    height: 16px;
-    padding: 0 4px;
-    background: var(--gradient-primary);
-    color: var(--pure-white);
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    background: linear-gradient(135deg, #6B4423 0%, #5a3a1e 100%);
+    color: #fff;
     font-size: 10px;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 8px rgba(107, 68, 35, 0.4);
+    animation: cartPulse 2s ease-in-out infinite;
+}
+
+@keyframes cartPulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
 }
 
 /* Menu Overlay */
@@ -115,13 +225,16 @@
     position: fixed;
     top: 0;
     left: -100%;
-    width: 400px;
+    width: 420px;
     height: 100vh;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.98) 0%, rgba(26, 26, 26, 0.98) 100%);
-    backdrop-filter: blur(20px);
+    background: rgba(26, 26, 26, 0.98);
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(40px) saturate(180%);
     z-index: 2000;
     transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow-y: auto;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 4px 0 40px rgba(0, 0, 0, 0.3);
 }
 
 .menu-overlay.open {
@@ -134,7 +247,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
     z-index: 1999;
     opacity: 0;
     pointer-events: none;
@@ -150,77 +264,137 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 32px;
+    padding: 24px 32px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.03);
 }
 
 .menu-close {
-    background: none;
-    border: none;
-    color: var(--pure-white);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;
     font-size: 24px;
     cursor: pointer;
-    padding: 8px;
-    transition: all var(--transition-fast);
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1;
 }
 
 .menu-close:hover {
-    color: var(--accent-purple);
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.25);
+    transform: rotate(90deg);
 }
 
 .menu-content {
-    padding: 32px;
+    padding: 40px 32px;
 }
 
 .menu-section {
-    margin-bottom: 40px;
+    margin-bottom: 48px;
 }
 
 .menu-section-title {
     font-size: 11px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: var(--accent-purple);
-    margin-bottom: 16px;
-    font-weight: 400;
+    color: #6B4423;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(107, 68, 35, 0.2);
 }
 
 .menu-links {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 4px;
 }
 
 .menu-link {
-    color: var(--pure-white);
+    color: rgba(255, 255, 255, 0.85);
     font-size: 16px;
     font-weight: 300;
-    letter-spacing: 0.02em;
-    transition: all var(--transition-fast);
-    padding: 4px 0;
+    letter-spacing: 0.03em;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 12px 16px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.menu-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 0;
+    background: linear-gradient(180deg, #6B4423 0%, #5a3a1e 100%);
+    border-radius: 2px;
+    transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover {
-    color: var(--accent-purple);
-    padding-left: 8px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+    padding-left: 24px;
+}
+
+.menu-link:hover::before {
+    height: 60%;
+}
+
+/* Luxury animation on load */
+@keyframes headerSlideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.topbar {
+    animation: headerSlideDown 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Responsive */
 @media (max-width: 768px) {
     .nav {
-        padding: 16px 24px;
+        padding: 14px 20px;
     }
 
     .nav-left,
     .nav-right {
-        gap: 16px;
+        gap: 12px;
     }
 
     .brand-title {
-        font-size: 16px;
+        font-size: 18px;
+        letter-spacing: 0.15em;
+    }
+
+    .menu-button,
+    .search-button,
+    .icon-link {
+        font-size: 12px;
+        padding: 6px 10px;
     }
 
     .menu-overlay {
         width: 100%;
+        max-width: 100vw;
+    }
+}
+
+/* High resolution screens */
+@media (min-width: 1920px) {
+    .nav {
+        padding: 20px 80px;
     }
 }

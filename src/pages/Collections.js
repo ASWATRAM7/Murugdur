@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import productsData from '../data/products.json';
+import BackButton from '../components/BackButton';
 import './Collections.css';
 
 function Collections() {
@@ -80,9 +81,13 @@ function Collections() {
         }
     };
 
+
     return (
         <main className="collections-page">
             <div className="container">
+                <div style={{ paddingTop: '24px', paddingBottom: '8px' }}>
+                    <BackButton label="Back" />
+                </div>
                 <div className="page-title">
                     <h1>{selectedCategory === 'all' ? 'All Collections' : getCategoryName(selectedCategory)}</h1>
                     <p>

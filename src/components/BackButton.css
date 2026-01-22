@@ -1,0 +1,106 @@
+/* Professional Back Button - Louis Vuitton Style */
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid rgba(17, 17, 17, 0.15);
+    color: #1a1a1a;
+    font-family: var(--font-primary);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.back-button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(107, 68, 35, 0.05);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.back-button:hover::before {
+    opacity: 1;
+}
+
+.back-button svg {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    flex-shrink: 0;
+}
+
+.back-button:hover {
+    border-color: #6B4423;
+    color: #6B4423;
+    transform: translateX(-2px);
+}
+
+.back-button:hover svg {
+    transform: translateX(-3px);
+}
+
+.back-button:active {
+    transform: translateX(-1px);
+    box-shadow: 0 2px 8px rgba(107, 68, 35, 0.1);
+}
+
+.back-button:focus {
+    outline: 2px solid rgba(107, 68, 35, 0.3);
+    outline-offset: 2px;
+}
+
+.back-button span {
+    position: relative;
+    z-index: 1;
+}
+
+/* Dark variant for use on dark backgrounds */
+.back-button.dark {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.back-button.dark::before {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.back-button.dark:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+    color: #fff;
+}
+
+/* Minimal variant - no border */
+.back-button.minimal {
+    border: none;
+    padding: 8px 12px;
+}
+
+.back-button.minimal:hover {
+    background: rgba(107, 68, 35, 0.08);
+}
+
+/* Fixed position variant for pages */
+.back-button.fixed {
+    position: fixed;
+    top: 80px;
+    left: 24px;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 768px) {
+    .back-button.fixed {
+        top: 70px;
+        left: 16px;
+    }
+}

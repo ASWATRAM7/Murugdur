@@ -66,7 +66,13 @@
       "color": "Onyx & Gold",
       "size": "34cm",
       "description": "A structured silhouette with refined hardware and a royal finish — built for evening arrivals and everyday prestige.",
-      "image": "/assets/hero-handbag.png"
+      "image": "/assets/hero-handbag.png",
+      "images": [
+        "/assets/hero-handbag.png",
+        "/assets/handbag-black.png",
+        "/assets/gen_handbag_tan.png",
+        "/assets/mens-bag1.png"
+      ]
     },
     {
       "id": "mdr-bag-heritage-02",
@@ -80,7 +86,13 @@
       "color": "Chestnut",
       "size": "28cm",
       "description": "Inspired by classic travel trunks. Precise edges, rich leather, and a lock detail for unmistakable presence.",
-      "image": "/assets/handbag-black.png"
+      "image": "/assets/handbag-black.png",
+      "images": [
+        "/assets/handbag-black.png",
+        "/assets/gen_handbag_tan.png",
+        "/assets/mens-bag1.png",
+        "/assets/mens-bag2.png"
+      ]
     },
     {
       "id": "mdr-bag-glamour-03",
@@ -94,7 +106,13 @@
       "color": "Emerald",
       "size": "30cm",
       "description": "A bold statement of luxury with rich texture and a vibrant emerald hue.",
-      "image": "/assets/bag-luxury-2.png"
+      "image": "/assets/gen_handbag_tan.png",
+      "images": [
+        "/assets/gen_handbag_tan.png",
+        "/assets/mens-bag1.png",
+        "/assets/mens-bag2.png",
+        "/assets/mens-bag3.png"
+      ]
     },
     {
       "id": "mdr-belt-crest-01",
@@ -108,7 +126,13 @@
       "color": "Midnight",
       "size": "Adjustable",
       "description": "A clean strap paired with a sculpted crest buckle — understated luxury with a sharp finish.",
-      "image": "/assets/belt-luxury.png"
+      "image": "/assets/belt1.jpeg",
+      "images": [
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg"
+      ]
     },
     {
       "id": "mdr-belt-gold-02",
@@ -122,7 +146,13 @@
       "color": "Tan",
       "size": "Adjustable",
       "description": "Gold hardware meets soft tan suede for a sophisticated, versatile accessory.",
-      "image": "/assets/shoes-luxury.png"
+      "image": "/assets/belt2.jpeg",
+      "images": [
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg"
+      ]
     },
     {
       "id": "mdr-perfume-oud-01",
@@ -136,7 +166,13 @@
       "color": "—",
       "size": "100ml",
       "description": "A deep, warm accord of oud and amber with a refined floral lift — bold, clean, and unforgettable.",
-      "image": "/assets/perfume-luxury.png"
+      "image": "/assets/perfume-1.png",
+      "images": [
+        "/assets/perfume-1.png",
+        "/assets/perfume-2.png",
+        "/assets/perfume-3.png",
+        "/assets/perfume-4.png"
+      ]
     },
     {
       "id": "mdr-perfume-noir-02",
@@ -150,7 +186,13 @@
       "color": "—",
       "size": "50ml",
       "description": "An intense, mysterious fragrance designed for the evening hours.",
-      "image": "/assets/pdt-extra-01.png"
+      "image": "/assets/perfume-2.png",
+      "images": [
+        "/assets/perfume-2.png",
+        "/assets/perfume-3.png",
+        "/assets/perfume-4.png",
+        "/assets/perfume-5.png"
+      ]
     },
     {
       "id": "mdr-watch-regal-01",
@@ -164,7 +206,13 @@
       "color": "Black / Gold",
       "size": "42mm",
       "description": "Precision timekeeping with a royal palette — for a statement that never shouts.",
-      "image": "/assets/watch-luxury.png"
+      "image": "/assets/gen_watch_silver.png",
+      "images": [
+        "/assets/gen_watch_silver.png",
+        "/assets/watch1.png",
+        "/assets/watch-2.png",
+        "/assets/watch-3.png"
+      ]
     },
     {
       "id": "mdr-watch-classic-02",
@@ -178,7 +226,13 @@
       "color": "Silver",
       "size": "38mm",
       "description": "A classic design that honors the heritage of fine watchmaking.",
-      "image": "/assets/pdt-extra-02.png"
+      "image": "/assets/watch1.png",
+      "images": [
+        "/assets/watch1.png",
+        "/assets/watch-2.png",
+        "/assets/watch-3.png",
+        "/assets/watch4.png"
+      ]
     },
     {
       "id": "mdr-wallet-slim-01",
@@ -192,7 +246,13 @@
       "color": "Onyx",
       "size": "8-card",
       "description": "Minimal profile, maximum refinement — crafted for everyday carry with a luxury finish.",
-      "image": "/assets/wallet-luxury.png"
+      "image": "/assets/wallet1.png",
+      "images": [
+        "/assets/wallet1.png",
+        "/assets/wallet2.png",
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png"
+      ]
     },
     {
       "id": "mdr-wallet-fold-02",
@@ -206,7 +266,13 @@
       "color": "Navy",
       "size": "Large",
       "description": "Spacious and elegant, perfect for the modern executive.",
-      "image": "/assets/pdt-extra-03.png"
+      "image": "/assets/wallet2.png",
+      "images": [
+        "/assets/wallet2.png",
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png"
+      ]
     },
     {
       "id": "mdr-tee-atelier-01",
@@ -220,7 +286,13 @@
       "color": "Ivory",
       "size": "S–XXL",
       "description": "A clean luxury basic with elevated fabric weight and perfect drape — designed for sharp silhouettes.",
-      "image": "/assets/tshirt-luxury.png"
+      "image": "/assets/tshirt-luxury.png",
+      "images": [
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/gen_tee_olive.png"
+      ]
     },
     {
       "id": "mdr-tee-crest-02",
@@ -234,7 +306,13 @@
       "color": "Black",
       "size": "S–XXL",
       "description": "Featuring the iconic Murgdur gold crest.",
-      "image": "/assets/pdt-extra-04.png"
+      "image": "/assets/gen_tee_olive.png",
+      "images": [
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_striped.png"
+      ]
     },
     {
       "id": "mdr-trouser-tailored-01",
@@ -248,7 +326,13 @@
       "color": "Charcoal",
       "size": "28–38",
       "description": "A precise taper and structured waist — made for formal ease and premium comfort.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant1.png",
+      "images": [
+        "/assets/phant1.png",
+        "/assets/phant2.png",
+        "/assets/phant3.png",
+        "/assets/phant4.png"
+      ]
     },
     {
       "id": "mdr-trouser-slim-02",
@@ -262,7 +346,13 @@
       "color": "Khaki",
       "size": "28–38",
       "description": "Perfect for a smart-casual luxury look.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant2.png",
+      "images": [
+        "/assets/phant2.png",
+        "/assets/phant3.png",
+        "/assets/phant4.png",
+        "/assets/phant5.png"
+      ]
     },
     {
       "id": "mdr-overcoat-royal-01",
@@ -276,7 +366,13 @@
       "color": "Black",
       "size": "S–XXL",
       "description": "A commanding long-line overcoat with a clean collar and premium finish — for cold-weather elegance.",
-      "image": "/assets/coat-luxury.png"
+      "image": "/assets/coat1.png",
+      "images": [
+        "/assets/coat1.png",
+        "/assets/coat2.png",
+        "/assets/coat3.png",
+        "/assets/coat4.png"
+      ]
     },
     {
       "id": "mdr-overcoat-camel-02",
@@ -290,7 +386,13 @@
       "color": "Camel",
       "size": "S–XXL",
       "description": "The peak of winter luxury, as seen on our main editorial.",
-      "image": "/assets/model-coat.webp"
+      "image": "/assets/coat2.png",
+      "images": [
+        "/assets/coat2.png",
+        "/assets/coat3.png",
+        "/assets/coat4.png",
+        "/assets/coat5.png"
+      ]
     },
     {
       "id": "mdr-oversized-hood-01",
@@ -304,7 +406,13 @@
       "color": "Stone",
       "size": "S–XXL",
       "description": "Luxurious softness, oversized drape — elevated streetwear built to feel royal.",
-      "image": "/assets/pdt-extra-06.png"
+      "image": "/assets/pdt-extra-06.png",
+      "images": [
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png"
+      ]
     },
     {
       "id": "mdr-oversized-tee-02",
@@ -318,7 +426,13 @@
       "color": "Onyx",
       "size": "S–XXL",
       "description": "A modern, relaxed silhouette with a boxy fit.",
-      "image": "/assets/pdt-extra-07.png"
+      "image": "/assets/pdt-extra-07.png",
+      "images": [
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png"
+      ]
     },
     {
       "id": "mdr-cap-crest-01",
@@ -332,7 +446,13 @@
       "color": "Midnight",
       "size": "Adjustable",
       "description": "A structured cap with crest detailing — minimal, bold, and unmistakably premium.",
-      "image": "/assets/pdt-extra-08.png"
+      "image": "/assets/cap1.jpeg",
+      "images": [
+        "/assets/cap1.jpeg",
+        "/assets/cap2.jpeg",
+        "/assets/cap3.jpeg",
+        "/assets/cap4.jpeg"
+      ]
     },
     {
       "id": "mdr-sweatshirt-crest-01",
@@ -346,7 +466,13 @@
       "color": "Black",
       "size": "S–XXL",
       "description": "A luxury essential with superior hand-feel — clean fit, sharp cuffs, and royal confidence.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-bag-tote-04",
@@ -360,7 +486,13 @@
       "color": "Beige / Saddle",
       "size": "40cm",
       "description": "Spacious enough for a weekend getaway, elegant enough for the city. Defined by robust handles and our signature weave.",
-      "image": "/assets/hero-handbag.png"
+      "image": "/assets/mens-bag1.png",
+      "images": [
+        "/assets/mens-bag1.png",
+        "/assets/mens-bag2.png",
+        "/assets/mens-bag3.png",
+        "/assets/mens-bag4.png"
+      ]
     },
     {
       "id": "mdr-bag-mini-05",
@@ -374,7 +506,13 @@
       "color": "Midnight Blue",
       "size": "20cm",
       "description": "A jewel of a bag. Compact, glittering, and finished with a detachable gold chain.",
-      "image": "/assets/handbag-black.png"
+      "image": "/assets/mens-bag2.png",
+      "images": [
+        "/assets/mens-bag2.png",
+        "/assets/mens-bag3.png",
+        "/assets/mens-bag4.png",
+        "/assets/mens-bag5.png"
+      ]
     },
     {
       "id": "mdr-belt-braided-03",
@@ -388,7 +526,13 @@
       "color": "Cognac",
       "size": "Adjustable",
       "description": "Hand-woven leather offering a relaxed yet sophisticated texture.",
-      "image": "/assets/belt-luxury.png"
+      "image": "/assets/belt3.jpeg",
+      "images": [
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg"
+      ]
     },
     {
       "id": "mdr-belt-black-04",
@@ -402,7 +546,13 @@
       "color": "Black",
       "size": "Adjustable",
       "description": "High-shine leather with a minimal silver buckle. The definitive formal belt.",
-      "image": "/assets/shoes-luxury.png"
+      "image": "/assets/belt4.jpeg",
+      "images": [
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg"
+      ]
     },
     {
       "id": "mdr-perfume-rose-03",
@@ -416,7 +566,13 @@
       "color": "—",
       "size": "75ml",
       "description": "A modern interpretation of classic rose, deepened with spice and dark woods.",
-      "image": "/assets/perfume-luxury.png"
+      "image": "/assets/perfume-3.png",
+      "images": [
+        "/assets/perfume-3.png",
+        "/assets/perfume-4.png",
+        "/assets/perfume-5.png",
+        "/assets/perfume-6.png"
+      ]
     },
     {
       "id": "mdr-perfume-citrus-04",
@@ -430,7 +586,13 @@
       "color": "—",
       "size": "100ml",
       "description": "Bright, crisp Italian citrus notes grounded by a hint of cedar. Pure summer elegance.",
-      "image": "/assets/pdt-extra-01.png"
+      "image": "/assets/perfume-4.png",
+      "images": [
+        "/assets/perfume-4.png",
+        "/assets/perfume-5.png",
+        "/assets/perfume-6.png",
+        "/assets/womens-perfume1.png"
+      ]
     },
     {
       "id": "mdr-watch-sport-03",
@@ -444,7 +606,13 @@
       "color": "Gunmetal",
       "size": "44mm",
       "description": "Lightweight, durable titanium construction for the gentleman racer.",
-      "image": "/assets/watch-luxury.png"
+      "image": "/assets/watch-2.png",
+      "images": [
+        "/assets/watch-2.png",
+        "/assets/watch-3.png",
+        "/assets/watch4.png",
+        "/assets/gen_watch_silver.png"
+      ]
     },
     {
       "id": "mdr-watch-gold-04",
@@ -458,7 +626,13 @@
       "color": "Rose Gold",
       "size": "40mm",
       "description": "Minimalist dial, maximist impact. A dress watch that commands the room.",
-      "image": "/assets/pdt-extra-02.png"
+      "image": "/assets/watch-3.png",
+      "images": [
+        "/assets/watch-3.png",
+        "/assets/watch4.png",
+        "/assets/gen_watch_silver.png",
+        "/assets/watch1.png"
+      ]
     },
     {
       "id": "mdr-wallet-zip-03",
@@ -472,7 +646,13 @@
       "color": "Navy",
       "size": "12-card",
       "description": "Full zip closure for security, with ample space for global currencies.",
-      "image": "/assets/wallet-luxury.png"
+      "image": "/assets/wallet3.png",
+      "images": [
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png",
+        "/assets/wallet2.png"
+      ]
     },
     {
       "id": "mdr-wallet-card-04",
@@ -486,7 +666,13 @@
       "color": "Tan",
       "size": "4-card",
       "description": "For those who travel light. Holds just the essentials in a sleek profile.",
-      "image": "/assets/pdt-extra-03.png"
+      "image": "/assets/wallet-luxury.png",
+      "images": [
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png",
+        "/assets/wallet2.png",
+        "/assets/wallet3.png"
+      ]
     },
     {
       "id": "mdr-tee-logo-03",
@@ -500,7 +686,13 @@
       "color": "White",
       "size": "S–XXL",
       "description": "Subtle luxury with our embroidered monogram on the pocket.",
-      "image": "/assets/tshirt-luxury.png"
+      "image": "/assets/gen_tee_striped.png",
+      "images": [
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/tshirt-luxury.png"
+      ]
     },
     {
       "id": "mdr-tee-navy-04",
@@ -514,7 +706,13 @@
       "color": "Navy",
       "size": "S–XXL",
       "description": "A subtle sheen and silky hand-feel defined this elevated essential.",
-      "image": "/assets/pdt-extra-04.png"
+      "image": "/assets/tshirt-luxury.png",
+      "images": [
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/gen_tee_olive.png"
+      ]
     },
     {
       "id": "mdr-trouser-pleat-03",
@@ -528,7 +726,13 @@
       "color": "Sand",
       "size": "28–38",
       "description": "High-waisted with a double buckle waistband. Sartorial elegance for warmer days.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant3.png",
+      "images": [
+        "/assets/phant3.png",
+        "/assets/phant4.png",
+        "/assets/phant5.png",
+        "/assets/phant6.png"
+      ]
     },
     {
       "id": "mdr-trouser-drawstring-04",
@@ -542,7 +746,13 @@
       "color": "Grey",
       "size": "S–XXL",
       "description": "The comfort of joggers with the cut of trousers. Perfect for the modern nomad.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant4.png",
+      "images": [
+        "/assets/phant4.png",
+        "/assets/phant5.png",
+        "/assets/phant6.png",
+        "/assets/phant7.png"
+      ]
     },
     {
       "id": "mdr-overcoat-peacoat-03",
@@ -556,7 +766,13 @@
       "color": "Navy",
       "size": "S–XXL",
       "description": "Double-breasted heritage design. Substantial, warm, and endlessly stylish.",
-      "image": "/assets/coat-luxury.png"
+      "image": "/assets/coat3.png",
+      "images": [
+        "/assets/coat3.png",
+        "/assets/coat4.png",
+        "/assets/coat5.png",
+        "/assets/coat6.png"
+      ]
     },
     {
       "id": "mdr-overcoat-trench-04",
@@ -570,7 +786,13 @@
       "color": "Olive",
       "size": "S–XXL",
       "description": "Designed for the elements. Features a structured silhouette and storm flap.",
-      "image": "/assets/model-coat.webp"
+      "image": "/assets/coat4.png",
+      "images": [
+        "/assets/coat4.png",
+        "/assets/coat5.png",
+        "/assets/coat6.png",
+        "/assets/coat7.png"
+      ]
     },
     {
       "id": "mdr-oversized-sweat-03",
@@ -584,7 +806,13 @@
       "color": "Charcoal",
       "size": "S–XXL",
       "description": "Dropped shoulders and a wide fit for that perfect contemporary silhouette.",
-      "image": "/assets/pdt-extra-06.png"
+      "image": "/assets/pdt-extra-06.png",
+      "images": [
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png"
+      ]
     },
     {
       "id": "mdr-oversized-shirt-04",
@@ -598,7 +826,13 @@
       "color": "Light Wash",
       "size": "S–XXL",
       "description": "Relaxed fit denim shirting reminiscent of 90s luxury streetwear.",
-      "image": "/assets/pdt-extra-07.png"
+      "image": "/assets/pdt-extra-07.png",
+      "images": [
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png"
+      ]
     },
     {
       "id": "mdr-cap-sport-02",
@@ -612,7 +846,13 @@
       "color": "Black",
       "size": "Adjustable",
       "description": "Sleek, breathable, and water-resistant. Crafted for active lifestyles.",
-      "image": "/assets/pdt-extra-08.png"
+      "image": "/assets/cap2.jpeg",
+      "images": [
+        "/assets/cap2.jpeg",
+        "/assets/cap3.jpeg",
+        "/assets/cap4.jpeg",
+        "/assets/cap5.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-wool-03",
@@ -626,7 +866,13 @@
       "color": "Grey",
       "size": "Adjustable",
       "description": "A warmer take on the classic baseball cap, featuring a wool texture.",
-      "image": "/assets/pdt-extra-08.png"
+      "image": "/assets/cap3.jpeg",
+      "images": [
+        "/assets/cap3.jpeg",
+        "/assets/cap4.jpeg",
+        "/assets/cap5.jpeg",
+        "/assets/cap6.jpeg"
+      ]
     },
     {
       "id": "mdr-sweatshirt-logo-02",
@@ -640,7 +886,13 @@
       "color": "Cream",
       "size": "S–XXL",
       "description": "Tonal embossed branding for a subtle yet premium statement.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-sweatshirt-zip-03",
@@ -654,7 +906,13 @@
       "color": "Forest Green",
       "size": "S–XXL",
       "description": "Elevated sportswear. The quarter-zip detail adds versatility and style.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-0",
@@ -668,7 +926,13 @@
       "color": "Onyx/Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Monogram Tote features our signature craftsmanship.",
-      "image": "/assets/hero-handbag.png"
+      "image": "/assets/mens-bag3.png",
+      "images": [
+        "/assets/mens-bag3.png",
+        "/assets/mens-bag4.png",
+        "/assets/mens-bag5.png",
+        "/assets/mens-bag6.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-1",
@@ -682,7 +946,13 @@
       "color": "Midnight",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Trunk Bag features our signature craftsmanship.",
-      "image": "/assets/handbag-black.png"
+      "image": "/assets/mens-bag4.png",
+      "images": [
+        "/assets/mens-bag4.png",
+        "/assets/mens-bag5.png",
+        "/assets/mens-bag6.png",
+        "/assets/mens-bag7.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-2",
@@ -696,7 +966,13 @@
       "color": "Emerald",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Croco Handbag features our signature craftsmanship.",
-      "image": "/assets/bag-luxury-2.png"
+      "image": "/assets/mens-bag5.png",
+      "images": [
+        "/assets/mens-bag5.png",
+        "/assets/mens-bag6.png",
+        "/assets/mens-bag7.png",
+        "/assets/mens-bag8.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-3",
@@ -710,7 +986,13 @@
       "color": "Tan",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Voyager Tote features our signature craftsmanship.",
-      "image": "/assets/gen_handbag_tan.png"
+      "image": "/assets/mens-bag6.png",
+      "images": [
+        "/assets/mens-bag6.png",
+        "/assets/mens-bag7.png",
+        "/assets/mens-bag8.png",
+        "/assets/hero-handbag.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-4",
@@ -724,7 +1006,13 @@
       "color": "Onyx/Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Monogram Tote features our signature craftsmanship.",
-      "image": "/assets/hero-handbag.png"
+      "image": "/assets/mens-bag7.png",
+      "images": [
+        "/assets/mens-bag7.png",
+        "/assets/mens-bag8.png",
+        "/assets/hero-handbag.png",
+        "/assets/handbag-black.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-5",
@@ -738,7 +1026,13 @@
       "color": "Midnight",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Trunk Bag features our signature craftsmanship.",
-      "image": "/assets/handbag-black.png"
+      "image": "/assets/mens-bag8.png",
+      "images": [
+        "/assets/mens-bag8.png",
+        "/assets/hero-handbag.png",
+        "/assets/handbag-black.png",
+        "/assets/gen_handbag_tan.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-6",
@@ -752,7 +1046,13 @@
       "color": "Emerald",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Croco Handbag features our signature craftsmanship.",
-      "image": "/assets/bag-luxury-2.png"
+      "image": "/assets/hero-handbag.png",
+      "images": [
+        "/assets/hero-handbag.png",
+        "/assets/handbag-black.png",
+        "/assets/gen_handbag_tan.png",
+        "/assets/mens-bag1.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-7",
@@ -766,7 +1066,13 @@
       "color": "Tan",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Voyager Tote features our signature craftsmanship.",
-      "image": "/assets/gen_handbag_tan.png"
+      "image": "/assets/handbag-black.png",
+      "images": [
+        "/assets/handbag-black.png",
+        "/assets/gen_handbag_tan.png",
+        "/assets/mens-bag1.png",
+        "/assets/mens-bag2.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-8",
@@ -780,7 +1086,13 @@
       "color": "Onyx/Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Monogram Tote features our signature craftsmanship.",
-      "image": "/assets/hero-handbag.png"
+      "image": "/assets/gen_handbag_tan.png",
+      "images": [
+        "/assets/gen_handbag_tan.png",
+        "/assets/mens-bag1.png",
+        "/assets/mens-bag2.png",
+        "/assets/mens-bag3.png"
+      ]
     },
     {
       "id": "mdr-han-gen-1768851105577-9",
@@ -794,7 +1106,13 @@
       "color": "Midnight",
       "size": "Standard",
       "description": "Experience the pinnacle of hand bags design. This Trunk Bag features our signature craftsmanship.",
-      "image": "/assets/handbag-black.png"
+      "image": "/assets/mens-bag1.png",
+      "images": [
+        "/assets/mens-bag1.png",
+        "/assets/mens-bag2.png",
+        "/assets/mens-bag3.png",
+        "/assets/mens-bag4.png"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-0",
@@ -808,7 +1126,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Crest Belt features our signature craftsmanship.",
-      "image": "/assets/belt-luxury.png"
+      "image": "/assets/belt1.jpeg",
+      "images": [
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-1",
@@ -822,7 +1146,13 @@
       "color": "Tan",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Signature Belt features our signature craftsmanship.",
-      "image": "/assets/shoes-luxury.png"
+      "image": "/assets/belt2.jpeg",
+      "images": [
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-2",
@@ -836,7 +1166,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Crest Belt features our signature craftsmanship.",
-      "image": "/assets/belt-luxury.png"
+      "image": "/assets/belt3.jpeg",
+      "images": [
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-3",
@@ -850,7 +1186,13 @@
       "color": "Tan",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Signature Belt features our signature craftsmanship.",
-      "image": "/assets/shoes-luxury.png"
+      "image": "/assets/belt4.jpeg",
+      "images": [
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-4",
@@ -864,7 +1206,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Crest Belt features our signature craftsmanship.",
-      "image": "/assets/belt-luxury.png"
+      "image": "/assets/belt1.jpeg",
+      "images": [
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-5",
@@ -878,7 +1226,13 @@
       "color": "Tan",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Signature Belt features our signature craftsmanship.",
-      "image": "/assets/shoes-luxury.png"
+      "image": "/assets/belt2.jpeg",
+      "images": [
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-6",
@@ -892,7 +1246,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Crest Belt features our signature craftsmanship.",
-      "image": "/assets/belt-luxury.png"
+      "image": "/assets/belt3.jpeg",
+      "images": [
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-7",
@@ -906,7 +1266,13 @@
       "color": "Tan",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Signature Belt features our signature craftsmanship.",
-      "image": "/assets/shoes-luxury.png"
+      "image": "/assets/belt4.jpeg",
+      "images": [
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-8",
@@ -920,7 +1286,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Crest Belt features our signature craftsmanship.",
-      "image": "/assets/belt-luxury.png"
+      "image": "/assets/belt1.jpeg",
+      "images": [
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-9",
@@ -934,7 +1306,13 @@
       "color": "Tan",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Signature Belt features our signature craftsmanship.",
-      "image": "/assets/shoes-luxury.png"
+      "image": "/assets/belt2.jpeg",
+      "images": [
+        "/assets/belt2.jpeg",
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg"
+      ]
     },
     {
       "id": "mdr-bel-gen-1768851105577-10",
@@ -948,7 +1326,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of belts design. This Crest Belt features our signature craftsmanship.",
-      "image": "/assets/belt-luxury.png"
+      "image": "/assets/belt3.jpeg",
+      "images": [
+        "/assets/belt3.jpeg",
+        "/assets/belt4.jpeg",
+        "/assets/belt1.jpeg",
+        "/assets/belt2.jpeg"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-0",
@@ -962,7 +1346,13 @@
       "color": "Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Oud Intense features our signature craftsmanship.",
-      "image": "/assets/perfume-luxury.png"
+      "image": "/assets/perfume-5.png",
+      "images": [
+        "/assets/perfume-5.png",
+        "/assets/perfume-6.png",
+        "/assets/womens-perfume1.png",
+        "/assets/womens-perfume2.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-1",
@@ -976,7 +1366,13 @@
       "color": "Noir",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Night Parfum features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-01.png"
+      "image": "/assets/perfume-6.png",
+      "images": [
+        "/assets/perfume-6.png",
+        "/assets/womens-perfume1.png",
+        "/assets/womens-perfume2.png",
+        "/assets/womens-perfume3.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-2",
@@ -990,7 +1386,13 @@
       "color": "Rose",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Rose Absolu features our signature craftsmanship.",
-      "image": "/assets/perfume-luxury.png"
+      "image": "/assets/womens-perfume1.png",
+      "images": [
+        "/assets/womens-perfume1.png",
+        "/assets/womens-perfume2.png",
+        "/assets/womens-perfume3.png",
+        "/assets/womens-perfume4.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-3",
@@ -1004,7 +1406,13 @@
       "color": "Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Oud Intense features our signature craftsmanship.",
-      "image": "/assets/perfume-luxury.png"
+      "image": "/assets/womens-perfume2.png",
+      "images": [
+        "/assets/womens-perfume2.png",
+        "/assets/womens-perfume3.png",
+        "/assets/womens-perfume4.png",
+        "/assets/womens-perfume5.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-4",
@@ -1018,7 +1426,13 @@
       "color": "Noir",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Night Parfum features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-01.png"
+      "image": "/assets/womens-perfume3.png",
+      "images": [
+        "/assets/womens-perfume3.png",
+        "/assets/womens-perfume4.png",
+        "/assets/womens-perfume5.png",
+        "/assets/womens-perfume6.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-5",
@@ -1032,7 +1446,13 @@
       "color": "Rose",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Rose Absolu features our signature craftsmanship.",
-      "image": "/assets/perfume-luxury.png"
+      "image": "/assets/womens-perfume4.png",
+      "images": [
+        "/assets/womens-perfume4.png",
+        "/assets/womens-perfume5.png",
+        "/assets/womens-perfume6.png",
+        "/assets/womens-perfume7.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-6",
@@ -1046,7 +1466,13 @@
       "color": "Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Oud Intense features our signature craftsmanship.",
-      "image": "/assets/perfume-luxury.png"
+      "image": "/assets/womens-perfume5.png",
+      "images": [
+        "/assets/womens-perfume5.png",
+        "/assets/womens-perfume6.png",
+        "/assets/womens-perfume7.png",
+        "/assets/perfume-1.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-7",
@@ -1060,7 +1486,13 @@
       "color": "Noir",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Night Parfum features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-01.png"
+      "image": "/assets/womens-perfume6.png",
+      "images": [
+        "/assets/womens-perfume6.png",
+        "/assets/womens-perfume7.png",
+        "/assets/perfume-1.png",
+        "/assets/perfume-2.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-8",
@@ -1074,7 +1506,13 @@
       "color": "Rose",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Rose Absolu features our signature craftsmanship.",
-      "image": "/assets/perfume-luxury.png"
+      "image": "/assets/womens-perfume7.png",
+      "images": [
+        "/assets/womens-perfume7.png",
+        "/assets/perfume-1.png",
+        "/assets/perfume-2.png",
+        "/assets/perfume-3.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-9",
@@ -1088,7 +1526,13 @@
       "color": "Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Oud Intense features our signature craftsmanship.",
-      "image": "/assets/perfume-luxury.png"
+      "image": "/assets/perfume-1.png",
+      "images": [
+        "/assets/perfume-1.png",
+        "/assets/perfume-2.png",
+        "/assets/perfume-3.png",
+        "/assets/perfume-4.png"
+      ]
     },
     {
       "id": "mdr-per-gen-1768851105577-10",
@@ -1102,7 +1546,13 @@
       "color": "Noir",
       "size": "Standard",
       "description": "Experience the pinnacle of perfume design. This Night Parfum features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-01.png"
+      "image": "/assets/perfume-2.png",
+      "images": [
+        "/assets/perfume-2.png",
+        "/assets/perfume-3.png",
+        "/assets/perfume-4.png",
+        "/assets/perfume-5.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-0",
@@ -1116,7 +1566,13 @@
       "color": "Black/Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Regal Chrono features our signature craftsmanship.",
-      "image": "/assets/watch-luxury.png"
+      "image": "/assets/watch4.png",
+      "images": [
+        "/assets/watch4.png",
+        "/assets/gen_watch_silver.png",
+        "/assets/watch1.png",
+        "/assets/watch-2.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-1",
@@ -1130,7 +1586,13 @@
       "color": "Silver",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Heritage features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-02.png"
+      "image": "/assets/gen_watch_silver.png",
+      "images": [
+        "/assets/gen_watch_silver.png",
+        "/assets/watch1.png",
+        "/assets/watch-2.png",
+        "/assets/watch-3.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-2",
@@ -1144,7 +1606,13 @@
       "color": "Steel",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Aeternitas features our signature craftsmanship.",
-      "image": "/assets/gen_watch_silver.png"
+      "image": "/assets/watch1.png",
+      "images": [
+        "/assets/watch1.png",
+        "/assets/watch-2.png",
+        "/assets/watch-3.png",
+        "/assets/watch4.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-3",
@@ -1158,7 +1626,13 @@
       "color": "Black/Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Regal Chrono features our signature craftsmanship.",
-      "image": "/assets/watch-luxury.png"
+      "image": "/assets/watch-2.png",
+      "images": [
+        "/assets/watch-2.png",
+        "/assets/watch-3.png",
+        "/assets/watch4.png",
+        "/assets/gen_watch_silver.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-4",
@@ -1172,7 +1646,13 @@
       "color": "Silver",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Heritage features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-02.png"
+      "image": "/assets/watch-3.png",
+      "images": [
+        "/assets/watch-3.png",
+        "/assets/watch4.png",
+        "/assets/gen_watch_silver.png",
+        "/assets/watch1.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-5",
@@ -1186,7 +1666,13 @@
       "color": "Steel",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Aeternitas features our signature craftsmanship.",
-      "image": "/assets/gen_watch_silver.png"
+      "image": "/assets/watch4.png",
+      "images": [
+        "/assets/watch4.png",
+        "/assets/gen_watch_silver.png",
+        "/assets/watch1.png",
+        "/assets/watch-2.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-6",
@@ -1200,7 +1686,13 @@
       "color": "Black/Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Regal Chrono features our signature craftsmanship.",
-      "image": "/assets/watch-luxury.png"
+      "image": "/assets/gen_watch_silver.png",
+      "images": [
+        "/assets/gen_watch_silver.png",
+        "/assets/watch1.png",
+        "/assets/watch-2.png",
+        "/assets/watch-3.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-7",
@@ -1214,7 +1706,13 @@
       "color": "Silver",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Heritage features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-02.png"
+      "image": "/assets/watch1.png",
+      "images": [
+        "/assets/watch1.png",
+        "/assets/watch-2.png",
+        "/assets/watch-3.png",
+        "/assets/watch4.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-8",
@@ -1228,7 +1726,13 @@
       "color": "Steel",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Aeternitas features our signature craftsmanship.",
-      "image": "/assets/gen_watch_silver.png"
+      "image": "/assets/watch-2.png",
+      "images": [
+        "/assets/watch-2.png",
+        "/assets/watch-3.png",
+        "/assets/watch4.png",
+        "/assets/gen_watch_silver.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-9",
@@ -1242,7 +1746,13 @@
       "color": "Black/Gold",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Regal Chrono features our signature craftsmanship.",
-      "image": "/assets/watch-luxury.png"
+      "image": "/assets/watch-3.png",
+      "images": [
+        "/assets/watch-3.png",
+        "/assets/watch4.png",
+        "/assets/gen_watch_silver.png",
+        "/assets/watch1.png"
+      ]
     },
     {
       "id": "mdr-wat-gen-1768851105577-10",
@@ -1256,7 +1766,13 @@
       "color": "Silver",
       "size": "Standard",
       "description": "Experience the pinnacle of watches design. This Heritage features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-02.png"
+      "image": "/assets/watch4.png",
+      "images": [
+        "/assets/watch4.png",
+        "/assets/gen_watch_silver.png",
+        "/assets/watch1.png",
+        "/assets/watch-2.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-0",
@@ -1270,7 +1786,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Slim Wallet features our signature craftsmanship.",
-      "image": "/assets/wallet-luxury.png"
+      "image": "/assets/wallet1.png",
+      "images": [
+        "/assets/wallet1.png",
+        "/assets/wallet2.png",
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-1",
@@ -1284,7 +1806,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Bifold features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-03.png"
+      "image": "/assets/wallet2.png",
+      "images": [
+        "/assets/wallet2.png",
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-2",
@@ -1298,7 +1826,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Slim Wallet features our signature craftsmanship.",
-      "image": "/assets/wallet-luxury.png"
+      "image": "/assets/wallet3.png",
+      "images": [
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png",
+        "/assets/wallet2.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-3",
@@ -1312,7 +1846,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Bifold features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-03.png"
+      "image": "/assets/wallet-luxury.png",
+      "images": [
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png",
+        "/assets/wallet2.png",
+        "/assets/wallet3.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-4",
@@ -1326,7 +1866,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Slim Wallet features our signature craftsmanship.",
-      "image": "/assets/wallet-luxury.png"
+      "image": "/assets/wallet1.png",
+      "images": [
+        "/assets/wallet1.png",
+        "/assets/wallet2.png",
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-5",
@@ -1340,7 +1886,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Bifold features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-03.png"
+      "image": "/assets/wallet2.png",
+      "images": [
+        "/assets/wallet2.png",
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-6",
@@ -1354,7 +1906,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Slim Wallet features our signature craftsmanship.",
-      "image": "/assets/wallet-luxury.png"
+      "image": "/assets/wallet3.png",
+      "images": [
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png",
+        "/assets/wallet2.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-7",
@@ -1368,7 +1926,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Bifold features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-03.png"
+      "image": "/assets/wallet-luxury.png",
+      "images": [
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png",
+        "/assets/wallet2.png",
+        "/assets/wallet3.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-8",
@@ -1382,7 +1946,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Slim Wallet features our signature craftsmanship.",
-      "image": "/assets/wallet-luxury.png"
+      "image": "/assets/wallet1.png",
+      "images": [
+        "/assets/wallet1.png",
+        "/assets/wallet2.png",
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-9",
@@ -1396,7 +1966,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Bifold features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-03.png"
+      "image": "/assets/wallet2.png",
+      "images": [
+        "/assets/wallet2.png",
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png"
+      ]
     },
     {
       "id": "mdr-wal-gen-1768851105577-10",
@@ -1410,7 +1986,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of wallets design. This Slim Wallet features our signature craftsmanship.",
-      "image": "/assets/wallet-luxury.png"
+      "image": "/assets/wallet3.png",
+      "images": [
+        "/assets/wallet3.png",
+        "/assets/wallet-luxury.png",
+        "/assets/wallet1.png",
+        "/assets/wallet2.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-0",
@@ -1424,7 +2006,13 @@
       "color": "Ivory",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Atelier Tee features our signature craftsmanship.",
-      "image": "/assets/tshirt-luxury.png"
+      "image": "/assets/gen_tee_olive.png",
+      "images": [
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_striped.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-1",
@@ -1438,7 +2026,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Crest Tee features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-04.png"
+      "image": "/assets/gen_tee_striped.png",
+      "images": [
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/tshirt-luxury.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-2",
@@ -1452,7 +2046,13 @@
       "color": "Charcoal",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Mercerized Tee features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-07.png"
+      "image": "/assets/tshirt-luxury.png",
+      "images": [
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/gen_tee_olive.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-3",
@@ -1466,7 +2066,13 @@
       "color": "Olive",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Essential Tee features our signature craftsmanship.",
-      "image": "/assets/gen_tee_olive.png"
+      "image": "/assets/gen_tee_olive.png",
+      "images": [
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_striped.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-4",
@@ -1480,7 +2086,13 @@
       "color": "Navy/White",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Breton Tee features our signature craftsmanship.",
-      "image": "/assets/gen_tee_striped.png"
+      "image": "/assets/gen_tee_striped.png",
+      "images": [
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/tshirt-luxury.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-5",
@@ -1494,7 +2106,13 @@
       "color": "Ivory",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Atelier Tee features our signature craftsmanship.",
-      "image": "/assets/tshirt-luxury.png"
+      "image": "/assets/tshirt-luxury.png",
+      "images": [
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/gen_tee_olive.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-6",
@@ -1508,7 +2126,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Crest Tee features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-04.png"
+      "image": "/assets/gen_tee_olive.png",
+      "images": [
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_striped.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-7",
@@ -1522,7 +2146,13 @@
       "color": "Charcoal",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Mercerized Tee features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-07.png"
+      "image": "/assets/gen_tee_striped.png",
+      "images": [
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/tshirt-luxury.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-8",
@@ -1536,7 +2166,13 @@
       "color": "Olive",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Essential Tee features our signature craftsmanship.",
-      "image": "/assets/gen_tee_olive.png"
+      "image": "/assets/tshirt-luxury.png",
+      "images": [
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/gen_tee_olive.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-9",
@@ -1550,7 +2186,13 @@
       "color": "Navy/White",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Breton Tee features our signature craftsmanship.",
-      "image": "/assets/gen_tee_striped.png"
+      "image": "/assets/gen_tee_olive.png",
+      "images": [
+        "/assets/gen_tee_olive.png",
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_striped.png"
+      ]
     },
     {
       "id": "mdr-tsh-gen-1768851105577-10",
@@ -1564,7 +2206,13 @@
       "color": "Ivory",
       "size": "Standard",
       "description": "Experience the pinnacle of t-shirts design. This Atelier Tee features our signature craftsmanship.",
-      "image": "/assets/tshirt-luxury.png"
+      "image": "/assets/gen_tee_striped.png",
+      "images": [
+        "/assets/gen_tee_striped.png",
+        "/assets/tshirt-luxury.png",
+        "/assets/gen_tee_olive.png",
+        "/assets/tshirt-luxury.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-0",
@@ -1578,7 +2226,13 @@
       "color": "Khaki",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Chino features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant5.png",
+      "images": [
+        "/assets/phant5.png",
+        "/assets/phant6.png",
+        "/assets/phant7.png",
+        "/assets/phant1.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-1",
@@ -1592,7 +2246,13 @@
       "color": "Various",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Trouser Collection features our signature craftsmanship.",
-      "image": "/assets/gen_trousers_stack.png"
+      "image": "/assets/phant6.png",
+      "images": [
+        "/assets/phant6.png",
+        "/assets/phant7.png",
+        "/assets/phant1.png",
+        "/assets/phant2.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-2",
@@ -1606,7 +2266,13 @@
       "color": "Khaki",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Chino features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant7.png",
+      "images": [
+        "/assets/phant7.png",
+        "/assets/phant1.png",
+        "/assets/phant2.png",
+        "/assets/phant3.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-3",
@@ -1620,7 +2286,13 @@
       "color": "Various",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Trouser Collection features our signature craftsmanship.",
-      "image": "/assets/gen_trousers_stack.png"
+      "image": "/assets/phant1.png",
+      "images": [
+        "/assets/phant1.png",
+        "/assets/phant2.png",
+        "/assets/phant3.png",
+        "/assets/phant4.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-4",
@@ -1634,7 +2306,13 @@
       "color": "Khaki",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Chino features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant2.png",
+      "images": [
+        "/assets/phant2.png",
+        "/assets/phant3.png",
+        "/assets/phant4.png",
+        "/assets/phant5.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-5",
@@ -1648,7 +2326,13 @@
       "color": "Various",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Trouser Collection features our signature craftsmanship.",
-      "image": "/assets/gen_trousers_stack.png"
+      "image": "/assets/phant3.png",
+      "images": [
+        "/assets/phant3.png",
+        "/assets/phant4.png",
+        "/assets/phant5.png",
+        "/assets/phant6.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-6",
@@ -1662,7 +2346,13 @@
       "color": "Khaki",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Chino features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant4.png",
+      "images": [
+        "/assets/phant4.png",
+        "/assets/phant5.png",
+        "/assets/phant6.png",
+        "/assets/phant7.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-7",
@@ -1676,7 +2366,13 @@
       "color": "Various",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Trouser Collection features our signature craftsmanship.",
-      "image": "/assets/gen_trousers_stack.png"
+      "image": "/assets/phant5.png",
+      "images": [
+        "/assets/phant5.png",
+        "/assets/phant6.png",
+        "/assets/phant7.png",
+        "/assets/phant1.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-8",
@@ -1690,7 +2386,13 @@
       "color": "Khaki",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Chino features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant6.png",
+      "images": [
+        "/assets/phant6.png",
+        "/assets/phant7.png",
+        "/assets/phant1.png",
+        "/assets/phant2.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-9",
@@ -1704,7 +2406,13 @@
       "color": "Various",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Trouser Collection features our signature craftsmanship.",
-      "image": "/assets/gen_trousers_stack.png"
+      "image": "/assets/phant7.png",
+      "images": [
+        "/assets/phant7.png",
+        "/assets/phant1.png",
+        "/assets/phant2.png",
+        "/assets/phant3.png"
+      ]
     },
     {
       "id": "mdr-tro-gen-1768851105577-10",
@@ -1718,7 +2426,13 @@
       "color": "Khaki",
       "size": "Standard",
       "description": "Experience the pinnacle of trousers design. This Chino features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-05.png"
+      "image": "/assets/phant1.png",
+      "images": [
+        "/assets/phant1.png",
+        "/assets/phant2.png",
+        "/assets/phant3.png",
+        "/assets/phant4.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-0",
@@ -1732,7 +2446,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Royal Overcoat features our signature craftsmanship.",
-      "image": "/assets/coat-luxury.png"
+      "image": "/assets/coat5.png",
+      "images": [
+        "/assets/coat5.png",
+        "/assets/coat6.png",
+        "/assets/coat7.png",
+        "/assets/coat1.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-1",
@@ -1746,7 +2466,13 @@
       "color": "Camel",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Classic Coat features our signature craftsmanship.",
-      "image": "/assets/model-coat.webp"
+      "image": "/assets/coat6.png",
+      "images": [
+        "/assets/coat6.png",
+        "/assets/coat7.png",
+        "/assets/coat1.png",
+        "/assets/coat2.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-2",
@@ -1760,7 +2486,13 @@
       "color": "Charcoal",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Wool Overcoat features our signature craftsmanship.",
-      "image": "/assets/gen_coat_grey.png"
+      "image": "/assets/coat7.png",
+      "images": [
+        "/assets/coat7.png",
+        "/assets/coat1.png",
+        "/assets/coat2.png",
+        "/assets/coat3.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-3",
@@ -1774,7 +2506,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Trench Coat features our signature craftsmanship.",
-      "image": "/assets/gen_coat_navy.png"
+      "image": "/assets/coat1.png",
+      "images": [
+        "/assets/coat1.png",
+        "/assets/coat2.png",
+        "/assets/coat3.png",
+        "/assets/coat4.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-4",
@@ -1788,7 +2526,13 @@
       "color": "Beige/Check",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Houndstooth Coat features our signature craftsmanship.",
-      "image": "/assets/gen_coat_check.png"
+      "image": "/assets/coat2.png",
+      "images": [
+        "/assets/coat2.png",
+        "/assets/coat3.png",
+        "/assets/coat4.png",
+        "/assets/coat5.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-5",
@@ -1802,7 +2546,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Royal Overcoat features our signature craftsmanship.",
-      "image": "/assets/coat-luxury.png"
+      "image": "/assets/coat3.png",
+      "images": [
+        "/assets/coat3.png",
+        "/assets/coat4.png",
+        "/assets/coat5.png",
+        "/assets/coat6.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-6",
@@ -1816,7 +2566,13 @@
       "color": "Camel",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Classic Coat features our signature craftsmanship.",
-      "image": "/assets/model-coat.webp"
+      "image": "/assets/coat4.png",
+      "images": [
+        "/assets/coat4.png",
+        "/assets/coat5.png",
+        "/assets/coat6.png",
+        "/assets/coat7.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-7",
@@ -1830,7 +2586,13 @@
       "color": "Charcoal",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Wool Overcoat features our signature craftsmanship.",
-      "image": "/assets/gen_coat_grey.png"
+      "image": "/assets/coat5.png",
+      "images": [
+        "/assets/coat5.png",
+        "/assets/coat6.png",
+        "/assets/coat7.png",
+        "/assets/coat1.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-8",
@@ -1844,7 +2606,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Trench Coat features our signature craftsmanship.",
-      "image": "/assets/gen_coat_navy.png"
+      "image": "/assets/coat6.png",
+      "images": [
+        "/assets/coat6.png",
+        "/assets/coat7.png",
+        "/assets/coat1.png",
+        "/assets/coat2.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-9",
@@ -1858,7 +2626,13 @@
       "color": "Beige/Check",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Houndstooth Coat features our signature craftsmanship.",
-      "image": "/assets/gen_coat_check.png"
+      "image": "/assets/coat7.png",
+      "images": [
+        "/assets/coat7.png",
+        "/assets/coat1.png",
+        "/assets/coat2.png",
+        "/assets/coat3.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-10",
@@ -1872,7 +2646,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of overcoats design. This Royal Overcoat features our signature craftsmanship.",
-      "image": "/assets/coat-luxury.png"
+      "image": "/assets/coat1.png",
+      "images": [
+        "/assets/coat1.png",
+        "/assets/coat2.png",
+        "/assets/coat3.png",
+        "/assets/coat4.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-0",
@@ -1886,7 +2666,13 @@
       "color": "Stone",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Boxy Hoodie features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-06.png"
+      "image": "/assets/pdt-extra-06.png",
+      "images": [
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-1",
@@ -1900,7 +2686,13 @@
       "color": "Onyx",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Oversized Tee features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-07.png"
+      "image": "/assets/pdt-extra-07.png",
+      "images": [
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-2",
@@ -1914,7 +2706,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Street Hoodie features our signature craftsmanship.",
-      "image": "/assets/gen_hoodie_black.png"
+      "image": "/assets/gen_hoodie_black.png",
+      "images": [
+        "/assets/gen_hoodie_black.png",
+        "/assets/gen_hoodie_black.png",
+        "/assets/gen_hoodie_black.png",
+        "/assets/gen_hoodie_black.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-3",
@@ -1928,7 +2726,13 @@
       "color": "Oatmeal",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Artisan Hoodie features our signature craftsmanship.",
-      "image": "/assets/gen_hoodie_beige.png"
+      "image": "/assets/gen_hoodie_beige.png",
+      "images": [
+        "/assets/gen_hoodie_beige.png",
+        "/assets/gen_hoodie_beige.png",
+        "/assets/gen_hoodie_beige.png",
+        "/assets/gen_hoodie_beige.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-4",
@@ -1942,7 +2746,13 @@
       "color": "Stone",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Boxy Hoodie features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-06.png"
+      "image": "/assets/pdt-extra-06.png",
+      "images": [
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-5",
@@ -1956,7 +2766,13 @@
       "color": "Onyx",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Oversized Tee features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-07.png"
+      "image": "/assets/pdt-extra-07.png",
+      "images": [
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-6",
@@ -1970,7 +2786,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Street Hoodie features our signature craftsmanship.",
-      "image": "/assets/gen_hoodie_black.png"
+      "image": "/assets/gen_hoodie_black.png",
+      "images": [
+        "/assets/gen_hoodie_black.png",
+        "/assets/gen_hoodie_black.png",
+        "/assets/gen_hoodie_black.png",
+        "/assets/gen_hoodie_black.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-7",
@@ -1984,7 +2806,13 @@
       "color": "Oatmeal",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Artisan Hoodie features our signature craftsmanship.",
-      "image": "/assets/gen_hoodie_beige.png"
+      "image": "/assets/gen_hoodie_beige.png",
+      "images": [
+        "/assets/gen_hoodie_beige.png",
+        "/assets/gen_hoodie_beige.png",
+        "/assets/gen_hoodie_beige.png",
+        "/assets/gen_hoodie_beige.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-8",
@@ -1998,7 +2826,13 @@
       "color": "Stone",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Boxy Hoodie features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-06.png"
+      "image": "/assets/pdt-extra-06.png",
+      "images": [
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png",
+        "/assets/pdt-extra-06.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-9",
@@ -2012,7 +2846,13 @@
       "color": "Onyx",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Oversized Tee features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-07.png"
+      "image": "/assets/pdt-extra-07.png",
+      "images": [
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png",
+        "/assets/pdt-extra-07.png"
+      ]
     },
     {
       "id": "mdr-ove-gen-1768851105577-10",
@@ -2026,7 +2866,13 @@
       "color": "Black",
       "size": "Standard",
       "description": "Experience the pinnacle of oversized design. This Street Hoodie features our signature craftsmanship.",
-      "image": "/assets/gen_hoodie_black.png"
+      "image": "/assets/gen_hoodie_black.png",
+      "images": [
+        "/assets/gen_hoodie_black.png",
+        "/assets/gen_hoodie_black.png",
+        "/assets/gen_hoodie_black.png",
+        "/assets/gen_hoodie_black.png"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-0",
@@ -2040,7 +2886,13 @@
       "color": "Midnight",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Crest Cap features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-08.png"
+      "image": "/assets/cap4.jpeg",
+      "images": [
+        "/assets/cap4.jpeg",
+        "/assets/cap5.jpeg",
+        "/assets/cap6.jpeg",
+        "/assets/gen_cap_navy.png"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-1",
@@ -2054,7 +2906,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Tech Cap features our signature craftsmanship.",
-      "image": "/assets/gen_cap_navy.png"
+      "image": "/assets/cap5.jpeg",
+      "images": [
+        "/assets/cap5.jpeg",
+        "/assets/cap6.jpeg",
+        "/assets/gen_cap_navy.png",
+        "/assets/cap1.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-2",
@@ -2068,7 +2926,13 @@
       "color": "Midnight",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Crest Cap features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-08.png"
+      "image": "/assets/cap6.jpeg",
+      "images": [
+        "/assets/cap6.jpeg",
+        "/assets/gen_cap_navy.png",
+        "/assets/cap1.jpeg",
+        "/assets/cap2.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-3",
@@ -2082,7 +2946,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Tech Cap features our signature craftsmanship.",
-      "image": "/assets/gen_cap_navy.png"
+      "image": "/assets/gen_cap_navy.png",
+      "images": [
+        "/assets/gen_cap_navy.png",
+        "/assets/cap1.jpeg",
+        "/assets/cap2.jpeg",
+        "/assets/cap3.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-4",
@@ -2096,7 +2966,13 @@
       "color": "Midnight",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Crest Cap features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-08.png"
+      "image": "/assets/cap1.jpeg",
+      "images": [
+        "/assets/cap1.jpeg",
+        "/assets/cap2.jpeg",
+        "/assets/cap3.jpeg",
+        "/assets/cap4.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-5",
@@ -2110,7 +2986,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Tech Cap features our signature craftsmanship.",
-      "image": "/assets/gen_cap_navy.png"
+      "image": "/assets/cap2.jpeg",
+      "images": [
+        "/assets/cap2.jpeg",
+        "/assets/cap3.jpeg",
+        "/assets/cap4.jpeg",
+        "/assets/cap5.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-6",
@@ -2124,7 +3006,13 @@
       "color": "Midnight",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Crest Cap features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-08.png"
+      "image": "/assets/cap3.jpeg",
+      "images": [
+        "/assets/cap3.jpeg",
+        "/assets/cap4.jpeg",
+        "/assets/cap5.jpeg",
+        "/assets/cap6.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-7",
@@ -2138,7 +3026,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Tech Cap features our signature craftsmanship.",
-      "image": "/assets/gen_cap_navy.png"
+      "image": "/assets/cap4.jpeg",
+      "images": [
+        "/assets/cap4.jpeg",
+        "/assets/cap5.jpeg",
+        "/assets/cap6.jpeg",
+        "/assets/gen_cap_navy.png"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-8",
@@ -2152,7 +3046,13 @@
       "color": "Midnight",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Crest Cap features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-08.png"
+      "image": "/assets/cap5.jpeg",
+      "images": [
+        "/assets/cap5.jpeg",
+        "/assets/cap6.jpeg",
+        "/assets/gen_cap_navy.png",
+        "/assets/cap1.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-9",
@@ -2166,7 +3066,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Tech Cap features our signature craftsmanship.",
-      "image": "/assets/gen_cap_navy.png"
+      "image": "/assets/cap6.jpeg",
+      "images": [
+        "/assets/cap6.jpeg",
+        "/assets/gen_cap_navy.png",
+        "/assets/cap1.jpeg",
+        "/assets/cap2.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-10",
@@ -2180,7 +3086,13 @@
       "color": "Midnight",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Crest Cap features our signature craftsmanship.",
-      "image": "/assets/pdt-extra-08.png"
+      "image": "/assets/gen_cap_navy.png",
+      "images": [
+        "/assets/gen_cap_navy.png",
+        "/assets/cap1.jpeg",
+        "/assets/cap2.jpeg",
+        "/assets/cap3.jpeg"
+      ]
     },
     {
       "id": "mdr-cap-gen-1768851105577-11",
@@ -2194,7 +3106,13 @@
       "color": "Navy",
       "size": "Standard",
       "description": "Experience the pinnacle of caps design. This Tech Cap features our signature craftsmanship.",
-      "image": "/assets/gen_cap_navy.png"
+      "image": "/assets/cap1.jpeg",
+      "images": [
+        "/assets/cap1.jpeg",
+        "/assets/cap2.jpeg",
+        "/assets/cap3.jpeg",
+        "/assets/cap4.jpeg"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-0",
@@ -2208,7 +3126,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-1",
@@ -2222,7 +3146,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-2",
@@ -2236,7 +3166,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-3",
@@ -2250,7 +3186,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-4",
@@ -2264,7 +3206,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-5",
@@ -2278,7 +3226,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-6",
@@ -2292,7 +3246,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-7",
@@ -2306,7 +3266,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-8",
@@ -2320,7 +3286,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-9",
@@ -2334,7 +3306,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-10",
@@ -2348,7 +3326,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     },
     {
       "id": "mdr-swe-gen-1768851105577-11",
@@ -2362,7 +3346,13 @@
       "color": "Grey",
       "size": "Standard",
       "description": "Experience the pinnacle of sweat shirts design. This Luxe Pullover features our signature craftsmanship.",
-      "image": "/assets/gen_sweat_grey.png"
+      "image": "/assets/gen_sweat_grey.png",
+      "images": [
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png",
+        "/assets/gen_sweat_grey.png"
+      ]
     }
   ]
 }

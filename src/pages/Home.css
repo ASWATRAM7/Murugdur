@@ -132,7 +132,7 @@
     color: var(--accent-purple);
 }
 
-/* Buttons - Gradient Theme */
+/* Buttons - Enhanced UI/UX Design */
 .btn-large {
     display: inline-flex;
     align-items: center;
@@ -143,7 +143,7 @@
     color: #fff;
     font-size: 12px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     letter-spacing: 0.1em;
     text-transform: none;
@@ -151,54 +151,104 @@
     font-family: var(--font-primary);
     position: relative;
     overflow: hidden;
+    outline: none;
 }
 
+/* Remove the gradient pseudo-element that was causing issues */
 .btn-large::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: var(--gradient-primary);
+    background: rgba(255, 255, 255, 0.1);
     opacity: 0;
     transition: opacity 0.3s ease;
-}
-
-.btn-large:hover {
-    border-color: transparent;
 }
 
 .btn-large:hover::before {
     opacity: 1;
 }
 
+/* Ensure text is always visible */
 .btn-large span {
     position: relative;
     z-index: 1;
 }
 
+/* Hover state - subtle lift and glow */
+.btn-large:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.15);
+}
 
+/* Active state - slight press down effect */
+.btn-large:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Focus state - visible outline for accessibility */
+.btn-large:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline-offset: 2px;
+}
+
+/* Primary button variant */
 .btn-large.primary {
-    border-color: var(--lv-brown);
-    background: var(--lv-brown);
+    border-color: #6B4423;
+    background: #6B4423;
     color: #fff;
 }
 
-.btn-large.primary:hover {
-    background: var(--lv-black);
-    border-color: var(--lv-black);
-    box-shadow: 0 12px 40px rgba(107, 68, 35, 0.25);
-    opacity: 1;
+.btn-large.primary::before {
+    background: rgba(0, 0, 0, 0.2);
 }
 
+.btn-large.primary:hover {
+    background: #5a3a1e;
+    border-color: #5a3a1e;
+    box-shadow: 0 12px 40px rgba(107, 68, 35, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-large.primary:active {
+    background: #4d3119;
+    transform: translateY(0);
+    box-shadow: 0 4px 16px rgba(107, 68, 35, 0.2);
+}
+
+.btn-large.primary:focus {
+    outline: 2px solid #6B4423;
+    outline-offset: 2px;
+}
+
+/* Light button variant */
 .btn-large.light {
     border-color: rgba(255, 255, 255, 0.95);
     background: rgba(255, 255, 255, 0.12);
     color: #fff;
+    backdrop-filter: blur(10px);
+}
+
+.btn-large.light::before {
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .btn-large.light:hover {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
     color: #111;
-    opacity: 1;
+    border-color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(255, 255, 255, 0.2);
+}
+
+.btn-large.light:active {
+    background: #fff;
+    transform: translateY(0);
+}
+
+.btn-large.light:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.8);
+    outline-offset: 2px;
 }
 
 /* Section Styles */

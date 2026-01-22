@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import productsData from '../data/products.json';
+import BackButton from '../components/BackButton';
+import Toast from '../components/Toast';
 import './Product.css';
 
 function Product() {
@@ -8,6 +10,12 @@ function Product() {
     const [product, setProduct] = useState(null);
     const [quantity, setQuantity] = useState(1);
     const [recommended, setRecommended] = useState([]);
+    const [showToast, setShowToast] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(0);
+    const [selectedSize, setSelectedSize] = useState('');
+
+    // Clothing categories that need size selection
+    const clothingCategories = ['tshirts', 'trousers', 'overcoats', 'oversized', 'sweatshirts'];
 
     useEffect(() => {
         // Find the product
@@ -20,6 +28,11 @@ function Product() {
                 .filter(p => p.category === foundProduct.category && p.id !== foundProduct.id)
                 .slice(0, 4);
             setRecommended(sameCategory);
+
+            // Set default size for clothing items
+            if (clothingCategories.includes(foundProduct.category)) {
+                setSelectedSize('M');
+            }
         }
 
         // Scroll to top
@@ -40,19 +53,31 @@ function Product() {
     };
 
     const addToCart = () => {
+        // Check if size is required and selected
+        if (clothingCategories.includes(product.category) && !selectedSize) {
+            alert('Please select a size');
+            return;
+        }
+
         const cart = JSON.parse(localStorage.getItem('cart') || '[]');
-        const existingItem = cart.find(item => item.id === product.id);
+        const cartItemId = clothingCategories.includes(product.category)
+            ? `${product.id}-${selectedSize}`
+            : product.id;
+
+        const existingItem = cart.find(item => item.id === cartItemId);
 
         if (existingItem) {
             existingItem.quantity += quantity;
         } else {
             cart.push({
-                id: product.id,
+                id: cartItemId,
+                productId: product.id,
                 name: product.name,
                 price: product.price,
                 currency: product.currency,
                 image: product.image,
-                quantity: quantity
+                quantity: quantity,
+                size: clothingCategories.includes(product.category) ? selectedSize : null
             });
         }
 
@@ -62,7 +87,19 @@ function Product() {
         window.dispatchEvent(new Event('cartUpdated'));
 
         // Show toast notification
-        alert(`Added ${quantity} ${product.name} to cart!`);
+        setShowToast(true);
+    };
+
+    // Get product images (supporting multiple images)
+    const getProductImages = () => {
+        if (!product) return [];
+
+        // If product has multiple images array
+        if (product.images && Array.isArray(product.images)) {
+            return product.images;
+        }
+        // Otherwise use single image
+        return [product.image];
     };
 
     if (!product) {
@@ -76,23 +113,46 @@ function Product() {
         );
     }
 
+    const productImages = getProductImages();
+    const isClothing = clothingCategories.includes(product.category);
+    const sizes = ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'];
+
     return (
         <main className="product-page">
             <div className="container">
+                <div style={{ paddingTop: '24px', paddingBottom: '16px' }}>
+                    <BackButton label="Back" />
+                </div>
                 <div className="product-layout">
                     <div className="product-image-section">
                         <div className="panel">
+                            {/* Main Image */}
                             <div className="product-image-wrapper">
-                                <img src={product.image} alt={product.name} className="image-cover" />
+                                <img
+                                    src={productImages[selectedImage]}
+                                    alt={product.name}
+                                    className="image-cover"
+                                />
                             </div>
+
+                            {/* Image Thumbnails */}
+                            {productImages.length > 1 && (
+                                <div className="product-thumbnails">
+                                    {productImages.map((img, index) => (
+                                        <button
+                                            key={index}
+                                            className={`thumbnail ${selectedImage === index ? 'active' : ''}`}
+                                            onClick={() => setSelectedImage(index)}
+                                        >
+                                            <img src={img} alt={`${product.name} view ${index + 1}`} />
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
+
                             <div className="toolbar" style={{ borderBottom: 'none' }}>
                                 <div className="left">
                                     <span className="product-meta-text">Royal Finish · Premium Materials</span>
-                                </div>
-                                <div className="right">
-                                    <Link to="/collections" className="btn-lv btn-lv-outline btn-sm">
-                                        Back to Collections
-                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -108,6 +168,24 @@ function Product() {
                             <div className="divider"></div>
 
                             <div className="product-actions">
+                                {/* Size Selector for Clothing */}
+                                {isClothing && (
+                                    <div className="size-selector">
+                                        <label>Select Size</label>
+                                        <div className="size-options">
+                                            {sizes.map(size => (
+                                                <button
+                                                    key={size}
+                                                    className={`size-option ${selectedSize === size ? 'active' : ''}`}
+                                                    onClick={() => setSelectedSize(size)}
+                                                >
+                                                    {size}
+                                                </button>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+
                                 <div className="quantity-selector">
                                     <label htmlFor="quantity">Quantity</label>
                                     <input
@@ -189,6 +267,14 @@ function Product() {
                     </div>
                 )}
             </div>
+
+            {/* Toast Notification */}
+            {showToast && (
+                <Toast
+                    productName={`${quantity} × ${product.name}${isClothing ? ` (${selectedSize})` : ''}`}
+                    onClose={() => setShowToast(false)}
+                />
+            )}
         </main>
     );
 }
