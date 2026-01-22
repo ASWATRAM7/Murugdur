@@ -1,20 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import productsData from '../data/products.json';
 import './Home.css';
 
 function Home() {
-    const [featuredProducts, setFeaturedProducts] = useState([]);
     const videoRef = useRef(null);
 
     useEffect(() => {
-        // Load featured products
-        const featured = productsData.featuredIds
-            .map(id => productsData.products.find(p => p.id === id))
-            .filter(Boolean)
-            .slice(0, 4);
-        setFeaturedProducts(featured);
-
         // Ensure video plays
         if (videoRef.current) {
             videoRef.current.play().catch(error => {
@@ -22,14 +13,6 @@ function Home() {
             });
         }
     }, []);
-
-    const formatPrice = (price, currency) => {
-        return new Intl.NumberFormat('en-IN', {
-            style: 'currency',
-            currency: currency || 'INR',
-            minimumFractionDigits: 0
-        }).format(price);
-    };
 
     return (
         <main className="home">
